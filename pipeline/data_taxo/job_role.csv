@@ -1,0 +1,2002 @@
+role_id,track_id,name
+1,1,Senior Assistant Engineer / Assistant Engineer (Power)
+2,1,Senior Engineer / Engineer (Power)
+3,1,Senior Technician (Power)
+4,1,Technician (Power)
+5,2,Lead Technical Artist
+6,2,Technical Artist
+7,3,"2D Artist (Concept Art / Background Art / Character Art, Storyboarding)"
+8,3,Creative Director / Creative Supervisor / 3D Art Supervisor
+9,3,Lead 2D Artist
+10,3,"Senior 2D Artist (Concept Art / Background Art / Character Art, Storyboarding)"
+11,4,1st Assistant Cameraman / Focus Puller (Specialty Camera Operation)
+12,4,"Camera Operator (Specialty Camera Operation, Electronic News Gathering and Electronic Field Production Operation)"
+13,4,Director of Photography (Specialty Camera Operation)
+14,3,Animator
+15,3,Lead Animator
+16,3,Senior Animator
+17,5,Architect
+18,5,Architectural Assistant
+19,5,Architectural Associate
+20,5,Architectural Executive
+21,5,Associate Director (Architecture) / Principal Architectural Executive
+22,5,Senior Architect
+23,5,Senior Architectural Executive
+24,6,Assistant Specialist (Digital Delivery)
+25,6,Chief Digital Officer
+26,6,Lead (Digital Delivery)
+27,6,Specialist (Digital Delivery)
+28,7,Assistant Civil and Structural Engineer / Technical Executive (Civil and Structural Engineering)
+29,7,Associate Director (Civil and Structural Engineering) / Principal Civil and Structural Engineer
+30,7,Civil and Structural Engineer
+31,7,Senior Civil and Structural Engineer
+32,8,Engineer / Supervisor (Engineering Construction)
+33,8,Principal Engineer / Manager (Engineering Construction)
+34,8,Senior Engineer / Assistant Manager (Engineering Construction)
+35,9,Designer (Engineering Design)
+36,9,Engineer (Engineering Design)
+37,9,Junior Designer (Engineering Design)
+38,9,Principal Engineer / Manager (Engineering Design)
+39,9,Senior Engineer (Engineering Design)
+40,3,"3D Artist (Modelling / Rigging / Texturing, Digital Lighting, Digital Compositing)"
+41,3,Lead 3D Artist (Live-action Visual Effects)
+42,3,"Senior 3D Artist (Modelling / Rigging / Texturing, Digital Lighting, Digital Compositing)"
+43,10,Lead Plan Approval Engineer
+44,10,Plan Approval Engineer
+45,10,Senior Plan Approval Engineer
+46,11,Solar PV Asset Performance Engineer
+47,12,Lead Engineer
+48,13,Electricity Transmission and Distribution Department Manager
+49,13,Operations and Maintenance Engineer
+50,13,Operations and Maintenance Manager
+51,13,Operations and Maintenance Principal Engineer
+52,13,Operations and Maintenance Senior Technical Officer
+53,13,Operations and Maintenance Technical Officer
+54,13,Operations and Maintenance Technician
+55,14,Gas Systems Operations Engineer
+56,14,Gas Systems Operations Manager
+57,14,Gas Systems Operations Principal Engineer
+58,15,Gas Transmission and Distribution Department Manager
+59,15,Operations and Maintenance Engineer
+60,15,Operations and Maintenance Manager
+61,15,Operations and Maintenance Principal Engineer
+62,15,Operations and Maintenance Senior Technical Officer
+63,15,Operations and Maintenance Technical Officer
+64,16,Power System Engineer
+65,17,Auxiliary Police Officer
+66,17,Auxiliary Police Officer Supervisor / Team Leader
+67,17,Commanding Officer
+68,17,Officer Commanding / Operations Manager
+69,18,Chief Security Officer
+70,18,Security Officer
+71,18,Security Supervisor
+72,18,Senior Security Officer
+73,18,Senior Security Supervisor
+74,19,Airport Emergency Assistant Manager
+75,19,Airport Emergency Manager
+76,19,Airport Emergency Officer
+77,19,Airport Emergency Officer (Specialist)
+78,19,Vice President
+79,20,Airport Operations Centre Manager
+80,20,Duty Terminal Manager
+81,20,Terminal Manager
+82,21,Airside Duty Manager
+83,21,Airside Officer
+84,21,Manager (Airside Operations)
+85,22,Baggage Services Assistant
+86,22,Baggage Services Officer
+87,22,Executive (Baggage Services)
+88,22,Manager (Baggage Services)
+89,22,Supervisor (Baggage Services)
+90,23,Cabin Crew
+91,23,Cabin Crew Team Lead / Cabin Crew Auditor
+92,23,Crew-in-Charge
+93,24,Cargo Assistant
+94,24,Cargo Officer
+95,24,Executive (Cargo)
+96,24,Manager (Cargo)
+97,24,Supervisor (Cargo)
+98,25,Catering Assistant
+99,25,Catering Officer
+100,25,Executive (Production / Catering-Cabin)
+101,25,Manager (Production / Catering-Cabin)
+102,25,Supervisor (Production / Catering-Cabin)
+103,26,Executive (Flight Operations)
+104,26,Flight Operations Assistant
+105,26,Flight Operations Officer
+106,26,Manager (Flight Operations)
+107,26,Supervisor (Flight Operations)
+108,27,Executive (Ground Services)
+109,27,Ground Services Officer
+110,27,Manager (Ground Services)
+111,27,Senior Ground Services Officer
+112,27,Supervisor (Ground Services)
+113,28,Executive (Load Control)
+114,28,Load Control Assistant
+115,28,Load Control Officer
+116,28,Manager (Load Control)
+117,28,Supervisor (Load Control)
+118,29,Customer Services Agent
+119,29,Customer Services Officer
+120,29,Executive (Passenger Services)
+121,29,Manager (Passenger Services)
+122,29,Supervisor (Passenger Services)
+123,30,Executive (Ramp / Technical Ramp)
+124,30,Manager (Ramp / Technical Ramp)
+125,30,Ramp Officer
+126,30,Ramp Operator
+127,30,Supervisor (Ramp / Technical Ramp)
+128,30,Technical Ramp Officer
+129,31,Executive (Technical Services)
+130,31,Maintenance Technician
+131,31,Manager (Technical Services)
+132,31,Supervisor (Technical Services)
+133,31,Technical Services Officer
+134,32,Admission and Ticketing Crew
+135,32,Assistant Horticulturist
+136,32,Assistant Keeper / Assistant Aquarist
+137,32,Attractions Operations Director
+138,32,Attractions Operations Manager
+139,32,Attractions Operations Supervisor / Attractions Operations Executive
+140,32,Guest Service Crew
+141,32,Guide
+142,32,Head Horticulturist
+143,32,Head Keeper / Head Aquarist
+144,32,Horticulturist
+145,32,Keeper / Aquarist
+146,32,Membership Crew
+147,32,Operations Crew
+148,33,Assistant Event Operations Executive
+149,33,Event Operations Director
+150,33,Event Operations Executive
+151,33,Event Operations Manager
+152,34,Tour Leader
+153,34,Tourist Guide
+154,34,Travel Operations Director
+155,34,Travel Operations Manager
+156,35,Assistant Venue Operations Executive
+157,35,Venue Operations Director
+158,35,Venue Operations Executive
+159,35,Venue Operations Manager
+160,36,Client Portfolio Analyst
+161,36,Client Portfolio Manager
+162,36,Head of Portfolio Management
+163,36,Head of Segments
+164,36,Portfolio Analyst / Investment Analyst / Fund Management Assistant
+165,36,Portfolio Analyst / Investment Analyst / Fund Management Assistant (Asset Management)
+166,36,Portfolio Analyst / Investment Analyst / Fund Management Assistant (Private Banking and Investment Management)
+167,36,Portfolio Manager / Investment Manager / Fund Manager
+168,36,Segment Executive
+169,36,Segment Manager
+170,37,Agency Director / Segment Lead
+171,37,Agency Manager / Team Lead
+172,37,Assistant Relationship Manager - Private Banking
+173,37,Assistant Relationship Manager - Retail Banking / Personal Banking Executive
+174,37,Assistant Relationship Manager / Relationship Associate
+175,37,Branch Manager
+176,37,Business Development Executive / Distribution Executive / Channel Executive / Partnerships and Affinity Management Executive
+177,37,Business Development Executive / Distribution Executive / Channel Executive / Partnerships and Affinity Management Executive (Insurance)
+178,37,Business Development Manager / Distribution Manager / Channel Manager / Partnerships and Affinity Management Manager
+179,37,Business Development Manager / Distribution Manager / Channel Manager / Partnerships and Affinity Management Manager (Insurance)
+180,37,Client Executive / Account Management Executive
+181,37,Client Implementation Analyst
+182,37,Client Implementation Manager
+183,37,Client Service Manager / Client Support Service Manager
+184,37,Client Service Officer / Client Support Service Officer
+185,37,Client Support Manager / Account Manager
+186,37,Customer Service Manager
+187,37,Customer Service Officer / Bank Teller
+188,37,Financial Planner / Insurance Agent / Bancassurance Specialist
+189,37,Head of Branch Management
+190,37,Head of Business Development / Head of Distribution / Head of Channel / Head of Partnerships and Affinity Management
+191,37,Head of Business Development / Head of Distribution / Head of Channel / Head of Partnerships and Affinity Management (Insurance)
+192,37,Head of Client Implementation
+193,37,Head of Client Management / Head of Account Management
+194,37,Head of Client Service / Client Support Services Director
+195,37,Head of Customer Service
+196,37,Head of Product Origination and Structuring
+197,37,Investment Counsellor
+198,37,Investment Counsellor Assistant
+199,37,Investment Counsellor Team Lead
+200,37,Product Origination and Structuring Analyst
+201,37,Product Origination and Structuring Manager
+202,37,Relationship Management Director - Commercial
+203,37,Relationship Management Director - Corporate and Large Multi-National Companies
+204,37,Relationship Management Director - Financial Institutions and Non-Bank Financial Institutions
+205,37,Relationship Management Director - Private Banking / Team Leader
+206,37,Relationship Management Director - Retail / Head of Personal Banking
+207,37,Relationship Management Director - Small and Medium Enterprises
+208,37,Relationship Manager - Commercial
+209,37,Relationship Manager - Corporate and Large Multi-National Companies
+210,37,Relationship Manager - Financial Institutions and Non-Bank Financial Institutions
+211,37,Relationship Manager - Private Banking
+212,37,Relationship Manager - Retail Banking / Personal Banking Manager
+213,37,Relationship Manager - Small and Medium Enterprises
+214,38,Customer Success Director
+215,38,Customer Success Manager
+216,38,Head of Sales
+217,38,Pre-Sales Consultant
+218,38,Pre-Sales Director
+219,38,Sales Account Manager
+220,38,Sales Director
+221,38,Sales Executive
+222,39,Head of Sales / Sales Director
+223,39,Sales Executive
+224,39,Sales Manager
+225,40,Accountant / Senior Accounts Executive
+226,40,Accounts Executive / Accounts Assistant
+227,40,Finance Manager
+228,41,Chief Financial Officer
+229,42,Accounting Executive
+230,42,Business Controller / Finance Director
+231,42,Financial Planning and Analysis Manager
+232,42,Management Accountant / Financial Planning and Analysis Analyst / Business Analyst
+233,43,Tax Associate / Tax Executive
+234,43,Tax Manager
+235,43,Tax Partner / Tax Director / Tax Vice President / Head of Tax
+236,43,Tax Senior / Tax Senior Executive
+237,44,Audit Associate / Audit Assistant Associate
+238,44,Audit Manager
+239,44,Audit Partner / Audit Director
+240,44,Audit Senior
+241,40,Financial Controller
+242,40,Head of Treasury
+243,40,Treasury Manager
+244,45,Financial Forensics Associate / Financial Forensics Executive
+245,45,Financial Forensics Director / Financial Forensics Partner
+246,45,Financial Forensics Manager
+247,45,Financial Forensics Senior / Financial Forensics Senior Executive
+248,46,Vessel Account Executive
+249,46,Vessel Accountant
+250,46,Vessel Cost Controller
+251,47,Assessor
+252,47,Courseware Developer
+253,47,Curriculum Lead
+254,47,Learning Facilitator
+255,48,Learning Quality Manager
+256,49,Agriculture Technician
+257,49,Agriculturist
+258,50,Farm Worker
+259,51,Aquaculture Technician
+260,51,Aquaculturist
+261,52,Farm Manager
+262,53,Assistant Engineer / Assistant Maintenance Manager
+263,53,Director of Operations / Plant Manager
+264,53,Engineer / Engineering Manager / Maintenance Manager
+265,53,Process Technician / Maintenance Technician
+266,53,Production Manager
+267,53,Production Operator
+268,53,Section Head / Team Leader / Line Operator
+269,53,Supervisor / Production Planner
+270,54,Assistant Food Technologist
+271,54,Chief Research and Development Officer
+272,54,Food Technologist
+273,54,Product Technologist / Innovation Manager
+274,55,Area Manager / District Manager
+275,55,Sales Associate / Brand Associate
+276,55,Sales Supervisor / Brand Supervisor
+277,55,Store Manager / Outlet Manager
+278,56,BESS BMS Research and Development Engineer
+279,56,BESS Electrochemistry Research and Development Engineer
+280,56,BESS Mechanical and Material Research and Development Engineer
+281,11,BESS Quality Assurance and Certification Engineer
+282,11,BESS Test and Commissioning Engineer
+283,57,General Counsel
+284,57,Legal Counsel
+285,58,Design Engineer
+286,58,Design Section Manager
+287,58,General Manager / Managing Director / Vice President (Manufacturing)
+288,58,Manufacturing Engineer / Production Engineer (Manufacturing)
+289,58,Manufacturing Manager
+290,58,Senior Design Engineer
+291,58,Senior Manufacturing Engineer / Senior Production Engineer (Manufacturing)
+292,58,Senior Operations Manager / Senior Production Manager / Senior Manufacturing Manager
+293,58,Senior Technician (Manufacturing)
+294,58,Technician (Manufacturing)
+295,59,Factory Manager
+296,59,Production Manager / Assistant Production Manager
+297,59,Production Supervisor
+298,59,Senior Production Manager
+299,60,Chief Engineer / Chief Technology Officer
+300,61,Assistant Production Engineer
+301,61,Master Trade Specialist / Senior Trade Specialist / Trade Specialist
+302,61,Production Engineer
+303,61,Production Section Manager / Head of Department
+304,61,Senior Production Engineer
+305,61,Supervisor / Chargehand / Foreman
+306,61,Technician
+307,62,Assistant Manufacturing Manager / Section Manager
+308,62,Manufacturing Manager / Operations Manager / Production Manager
+309,62,Production Supervisor
+310,63,Assistant Engineer / Associate Engineer
+311,63,Automation Coordinator / Robot Coordinator
+312,63,Chief Engineer
+313,63,Engineer
+314,63,Machinist / Technician
+315,63,Master Craftsman
+316,63,Process Specialist / Shift Leader / Team Leader
+317,63,Product Engineer / Product Designer
+318,63,Senior Engineer
+319,63,Senior Machinist / Senior Technician
+320,54,Bioprocess Engineer (Food Applications)
+321,54,Food Application Scientist and Technologist
+322,54,Food Biotechnologist
+323,64,Assistant Director
+324,64,Associate Counsellor
+325,64,Chief Counsellor
+326,64,Counselling Educator
+327,64,Counsellor
+328,64,Executive Director
+329,64,Principal Counsellor
+330,64,Principal Research Counsellor
+331,64,Research Counsellor
+332,64,Senior Counsellor
+333,64,Senior Manager
+334,64,Senior Principal Counsellor
+335,65,Lead Social Worker
+336,65,Master Social Worker
+337,65,Senior Master Social Worker
+338,65,Senior Social Worker
+339,65,Social Worker
+340,66,Lead Youth Worker
+341,66,Senior Youth Worker
+342,66,Youth Worker
+343,67,Engineering Service Engineer / Technical Service Engineer (Aircraft Engine / Component Maintenance)
+344,67,Quality Engineer (Aircraft Engine / Component Maintenance)
+345,67,Quality Manager (Aircraft Engine / Component Maintenance)
+346,67,Repair Engineer / Process Engineer
+347,67,Senior Engineering Service Engineer / Senior Technical Service Engineer (Aircraft Engine / Component Maintenance)
+348,67,Senior Quality Engineer (Aircraft Engine / Component Maintenance)
+349,67,Senior Repair Engineer / Senior Process Engineer
+350,67,Technical Service Manager (Aircraft Engine / Component Maintenance)
+351,68,Assistant Foreman / Lead Maintenance Engineer / Superintendent
+352,68,Cat A Certifying Technician
+353,68,Engineering Service Engineer / Technical Service Engineer (Aircraft Maintenance)
+354,68,Engineering Service Manager / Technical Service Manager
+355,68,Licensed Aircraft Engineer - Cat B1 (Mechanical)
+356,68,Licensed Aircraft Engineer - Cat B2 (Avionics)
+357,68,Licensed Aircraft Engineer - Cat C
+358,68,Quality Engineer (Aircraft Maintenance)
+359,68,Quality Manager (Aircraft Maintenance)
+360,68,Senior Engineering Service Engineer / Senior Technical Service Engineer (Aircraft Maintenance)
+361,68,Senior Quality Engineer (Aircraft Maintenance)
+362,68,Senior Workshop Engineer
+363,68,Workshop Engineer
+364,69,Lead Maintenance Engineer
+365,69,Maintenance Controller / Technical Operations Representative
+366,69,Quality Engineer (Fleet Management)
+367,69,Quality Manager (Fleet Management)
+368,69,Senior Quality Engineer (Fleet Management)
+369,69,Senior Technical Service Engineer (Fleet Management)
+370,69,Technical Service Engineer (Fleet Management)
+371,69,Technical Service Manager (Fleet Management)
+372,58,Manufacturing Engineer / Production Engineer (Assembly)
+373,58,Quality Engineer (Manufacturing)
+374,58,Quality Manager (Manufacturing)
+375,58,Senior Manufacturing Engineer / Senior Production Engineer (Assembly)
+376,58,Senior Quality Engineer (Manufacturing)
+377,67,Senior Technician (Engine / Engine Component Repair & Overhaul)
+378,67,Technician (Engine / Engine Component Repair & Overhaul)
+379,67,Senior Technician (Component Repair & Overhaul - Avionics)
+380,67,Senior Technician (Component Repair & Overhaul - Mechanical)
+381,67,Technician (Component Repair & Overhaul - Avionics)
+382,67,Technician (Component Repair & Overhaul - Mechanical)
+383,67,Trainee Maintenance Technician
+384,68,Aircraft Maintenance Engineer Apprentice
+385,68,Senior Technician (Avionics)
+386,68,Senior Technician (Mechanical)
+387,68,Technician (Avionics)
+388,68,Technician (Mechanical)
+389,68,Trainee Aircraft Maintenance Technician
+390,58,Trainee Technician
+391,70,Design Production Manager
+392,70,Design Project Manager
+393,70,Head of Design Production
+394,70,Product Manager
+395,70,Head of Projects/Head of Products
+396,71,Content Strategist
+397,71,Content Writer
+398,71,Designer
+399,71,Lead Designer
+400,71,Lead Visualiser/Lead Storyteller
+401,71,Principal Designer
+402,71,Visualiser/Storyteller
+403,72,Lead Service Designer/Lead Experience Designer
+404,72,Principal Service Designer/Principal Experience Designer
+405,72,Service Designer/Experience Designer
+406,73,Creative Technologist
+407,73,Lead Creative Technologist
+408,73,Principal Creative Technologist
+409,74,Landscape Architect
+410,74,Landscape Designer
+411,74,Principal Landscape Architect
+412,74,Principal Landscape Designer
+413,75,Marketing Associate / Assistant
+414,75,Marketing Director
+415,75,Marketing Executive
+416,75,Marketing Manager
+417,76,SysOps Engineer
+418,77,Head of Software Engineering
+419,77,Quality Engineering Manager
+420,77,Site Reliability Engineering Manager
+421,77,Software Architect
+422,77,Software Engineering Manager
+423,78,DevOps Engineer
+424,78,Head of Software Engineering
+425,78,Software Engineering Manager
+426,79,Head of Quality
+427,79,Program Director
+428,79,Program Manager
+429,79,Project Manager / Scrum Master
+430,79,Quality Engineering Manager
+431,77,Back End Developer
+432,77,Chief Technology Officer
+433,77,Front End Developer
+434,77,Full Stack Developer
+435,77,Head of Quality & Risk
+436,77,Product Risk Analyst
+437,77,Product Risk Manager
+438,77,Product Security Engineer
+439,77,Product Security Engineering Manager
+440,77,Quality Engineer
+441,77,Senior Back End Developer
+442,77,Senior Front End Developer
+443,77,Senior Full Stack Developer
+444,77,Site Reliability Engineer
+445,78,Associate Software Engineer
+446,79,Enterprise Architect
+447,79,Quality Engineer
+448,79,Solutions Architect
+449,7,Assistant Mechanical Engineer / Assistant Electrical Engineer / Technical Executive (Mechanical Engineering) / Technical Executive (Electrical Engineering)
+450,7,Associate Director (Mechanical Engineering / Electrical Engineering) / Principal Mechanical Engineer / Principal Electrical Engineer
+451,7,Mechanical Engineer / Electrical Engineer
+452,7,Senior Mechanical Engineer / Senior Electrical Engineer
+453,80,Facilities Manager / Facilities Engineer
+454,80,Facilities Technician
+455,80,Technical Executive
+456,80,Technical Officer
+457,81,Captain
+458,81,Chief Pilot (Vice President)
+459,81,Deputy Chief Pilot / Management Pilot
+460,81,First Officer
+461,82,Flight Controller
+462,82,Manager (Flight Operations)
+463,82,Officer (Flight Control)
+464,82,Senior Officer (Flight Control) / Senior Officer (Crew Scheduling)
+465,82,Supervisor (Flight Control) / Supervisor (Crew Scheduling)
+466,82,Vice President
+467,83,Assistant Manager (Operations & Maintenance / Specialised Systems / Projects)
+468,83,Associate (Operations & Maintenance / Specialised Systems / Projects)
+469,83,Manager (Operations & Maintenance / Specialised Systems / Projects)
+470,83,Senior Associate (Operations & Maintenance / Specialised Systems / Projects)
+471,83,Vice President
+472,84,Customer Services Supervisor (Call Centre) / Customer Service Supervisor (Reservations & Ticketing) / Premium Services Supervisor
+473,84,Executive (Contact Centre Operations) / Executive (Service Centres) / Executive (Premium Passenger Services)
+474,84,Manager (Contact Centre Operations) / Manager (Service Centres) / Manager (Premium Passenger Services)
+475,84,Vice President
+476,85,Assistant Manager (Network Planning)
+477,85,Manager (Network Planning)
+478,85,Network Planning Analyst
+479,85,Vice President
+480,84,Customer Services Officer (Call Centre) / Customer Service Officer (Reservations & Ticketing) / Passenger Relations Officer
+481,84,Senior Customer Services Officer (Call Centre) / Senior Customer Service Officer (Reservations & Ticketing) / Senior Passenger Relations Officer
+482,23,Cabin Crew Executive
+483,23,Cabin Crew Manager
+484,23,Vice President
+485,27,Vice President
+486,20,Vice President
+487,21,Vice President
+488,29,Vice President
+489,86,Emergency Medical Technician
+490,87,Bartender
+491,87,Bartender Supervisor
+492,87,Head Bartender
+493,87,Head Sommelier / Sommelier
+494,87,Wine Server / Wine Waiter / Commis Sommelier
+495,87,Wine Specialist / Demi Sommelier
+496,88,Pharmacy Technician
+497,88,Pharmacy Technician Executive (Patient Care Services)
+498,88,Senior Pharmacy Technician
+499,88,Senior Pharmacy Technician Executive (Patient Care Services)
+500,89,Occupational Therapist
+501,89,Principal Occupational Therapy Researcher
+502,89,Senior Occupational Therapist
+503,89,Senior Principal Occupational Therapy Researcher
+504,90,Physiotherapist
+505,90,Principal Physiotherapy Researcher
+506,90,Senior Physiotherapist
+507,90,Senior Principal Physiotherapy Researcher
+508,91,Principal Speech Therapy Researcher
+509,91,Senior Principal Speech Therapy Researcher
+510,91,Senior Speech Therapist
+511,91,Speech Therapist
+512,92,Quality Assurance Assistant
+513,92,Quality Assurance Manager
+514,92,Quality Assurance Senior Specialist
+515,92,Quality Assurance Specialist
+516,59,Quality Assurance Manager / Quality Control Manager / Quality Assurance Engineer / Quality Control Engineer / Planner
+517,59,Quality Assurance Supervisor / Quality Control Supervisor
+518,59,Senior Quality Assurance Manager / Senior Quality Control Manager / Senior Planner
+519,93,Laboratory Assistant
+520,93,Laboratory Chemist
+521,93,Laboratory Supervisor
+522,93,Laboratory Technician / Technologist
+523,93,QA&QC Manager
+524,93,Senior Laboratory Chemist
+525,93,Senior Laboratory Technician / Technologist
+526,94,Principal Chemist
+527,95,Executive - On-Demand Media Technology and Operations
+528,95,Head - Technology and Operations
+529,95,Manager - On-Demand Media Technology and Operations
+530,96,Edge Connectivity and Solution Engineer
+531,97,Applications Support Engineer
+532,97,Head of Operations and Support
+533,97,Operations and Support Manager
+534,78,Associate Embedded Systems Engineer
+535,78,Embedded Systems Engineer
+536,78,Embedded Systems Engineering Manager
+537,78,Software Architect
+538,78,Software Engineer
+539,79,Quality Assurance Engineer
+540,79,Quality Assurance Manager
+541,76,Infrastructure Engineer
+542,97,Associate Applications Support Engineer
+543,67,General Manager / Managing Director / Vice President (Aircraft Engine / Component Maintenance)
+544,67,Operations Manager (Aircraft Engine / Component Maintenance)
+545,67,Planning Manager (Aircraft Engine / Component Maintenance)
+546,67,Senior Operations Manager / Senior Technical Manager
+547,68,Foreman / Operations Manager / Programme Manager
+548,68,General Manager / Managing Director / Vice President (Aircraft Maintenance)
+549,68,Planning Manager (Aircraft Maintenance)
+550,68,Programme Director / Senior Operations Manager
+551,69,General Manager / Managing Director / Vice President (Fleet Management)
+552,69,Operations Manager (Fleet Management)
+553,69,Planning Manager (Fleet Management)
+554,69,Programme Director
+555,58,Manufacturing Planning Manager
+556,58,Operations Manager / Production Manager
+557,94,Chief Chemist / Fellow
+558,98,R&D Chemist
+559,98,R&D Manager
+560,98,Senior R&D Chemist
+561,99,Assistant Engineer / Service Engineer
+562,99,Head of Engineering
+563,99,Lead Engineer / Principal Engineer
+564,99,Senior Engineer / Engineer
+565,67,Senior NDT Level 3 Engineer (Aircraft Engine / Component Maintenance)
+566,67,Senior Planning Executive (Aircraft Engine / Component Maintenance)
+567,68,Senior NDT Level 3 Engineer (Aircraft Maintenance)
+568,68,Senior Planning Executive (Aircraft Maintenance)
+569,69,Senior Planning Executive (Fleet Management)
+570,58,Senior Manufacturing Planning Executive
+571,58,Senior NDT Level 3 Engineer (Manufacturing)
+572,100,Director (Engineering)
+573,101,Director (Operations and Maintenance)
+574,101,Engineer / Supervisor (Operations and Maintenance)
+575,101,Principal Engineer / Manager (Operations and Maintenance)
+576,101,Senior Engineer / Assistant Manager (Operations and Maintenance)
+577,77,Associate Product Analyst
+578,77,Associate Product Designer
+579,77,Associate Product Manager
+580,77,Chief Product Officer
+581,77,Head of Product
+582,77,Head of Product Analytics
+583,77,Head of Product Design
+584,77,Lead Product Analyst
+585,77,Lead Product Designer
+586,77,Lead Product Manager
+587,77,Product Analyst
+588,77,Product Designer
+589,77,Product Manager
+590,102,Occupational Hygiene Officer
+591,102,Occupational Hygienist
+592,103,Assistant Head Chef
+593,103,Cook / Kitchen Assistant
+594,103,Head Chef
+595,103,Senior Cook / Station Chef
+596,104,Butler / Club Floor Officer / Club Floor Agent
+597,104,Butler Supervisor / Club Floor Executive / Club Floor Supervisor
+598,104,Head Butler / Butler Manager / Club Floor Manager
+599,105,Assistant Executive Housekeeper
+600,105,Assistant Housekeeper / Assistant Housekeeping Manager / Housekeeping Supervisor
+601,105,Executive Housekeeper / Director of Housekeeping
+602,105,Housekeeping Coordinator
+603,105,Laundry Manager
+604,105,Linen Room Attendant / Laundry Valet Attendant
+605,105,Linen Room Supervisor
+606,106,Marketing Communications Officer / Digital Marketing Officer / Sales and Marketing Officer
+607,106,Sales Coordinator / Catering Sales Coordinator
+608,107,Client Investment Performance and Reporting Analyst
+609,107,Client Investment Performance and Reporting Analyst (Asset Management)
+610,107,Client Investment Performance and Reporting Analyst (Private Banking and Wealth Management)
+611,107,Head of Client Investment Performance and Reporting
+612,107,Head of Client Investment Performance and Reporting (Asset Management)
+613,107,Head of Client Investment Performance and Reporting (Private Banking and Wealth Management)
+614,107,Transaction Banking Operations Analyst
+615,107,Transaction Banking Operations Analyst (Corporate Banking)
+616,107,Transaction Banking Operations Manager
+617,107,Transaction Banking Operations Manager (Corporate Banking)
+618,107,Treasury Operations Analyst / Market Operations Analyst
+619,107,Treasury Operations Manager / Market Operations Manager
+620,108,Head of Market and Liquidity Risk Management
+621,108,Market and Liquidity Risk Analyst
+622,108,Market and Liquidity Risk Manager
+623,109,Discipline Engineer
+624,109,Engineering Manager
+625,109,Maintenance Manager
+626,109,Maintenance Planner
+627,109,Maintenance Supervisor
+628,109,Maintenance Technician
+629,109,Principal Engineer (Engineering)
+630,109,Senior Discipline Engineer
+631,109,Senior Maintenance Technician
+632,110,Chief Engineer / Fellow
+633,111,Assistant Project Manager (Construction) / Construction Manager
+634,111,Engineer / Assistant Engineer
+635,111,Project Director (Construction)
+636,111,Senior Project Manager (Construction) / Project Manager (Construction)
+637,111,Site Supervisor / Trade Supervisor / Project Coordinator
+638,80,Associate Director (Facilities Management)
+639,80,Senior Facilities Manager
+640,112,Assistant Project Manager / Project Management Executive
+641,112,Project Director (Project Management)
+642,112,Project Manager
+643,112,Senior Project Manager
+644,11,BESS Engineer
+645,11,Solar PV and ESS Asset Maintenance Engineer
+646,11,Solar PV and ESS Asset Maintenance Senior Technical Officer
+647,11,Solar PV and ESS Project Development and Asset Maintenance Project Manager
+648,12,Technical Feasibility Engineer
+649,13,Network Planning and Strategy Engineer
+650,13,Network Planning and Strategy Manager
+651,13,Network Planning and Strategy Principal Engineer
+652,14,Gas Systems Operations Senior Technical Officer
+653,14,Gas Systems Operations Technical Officer
+654,15,Network Planning and Strategy Engineer
+655,15,Network Planning and Strategy Manager
+656,15,Network Planning and Strategy Principal Engineer
+657,16,Optimisation Engineer
+658,113,Engineering and Maintenance Department Manager
+659,113,Engineering and Maintenance Engineer
+660,113,Engineering and Maintenance Manager
+661,113,Engineering and Maintenance Principal Engineer
+662,113,Engineering and Maintenance Senior Technical Officer
+663,113,Engineering and Maintenance Technical Officer
+664,114,Town Gas Plant Maintenance Engineer
+665,114,Town Gas Plant Maintenance Manager
+666,114,Town Gas Plant Maintenance Senior Technical Officer
+667,114,Town Gas Plant Maintenance Technical Officer
+668,101,Assistant Engineer / Senior Technician (Operations and Maintenance)
+669,101,Technician / Coordinator (Operations and Maintenance)
+670,1,Chief Engineer / Senior Engineering Manager (Automatic Fare Collection)
+671,1,Chief Engineer / Senior Engineering Manager (Engineering Train)
+672,1,Chief Engineer / Senior Engineering Manager (Mechanical and Electrical)
+673,1,Chief Engineer / Senior Engineering Manager (Permanent Way and Civil Structure)
+674,1,Chief Engineer / Senior Engineering Manager (Power)
+675,1,Chief Engineer / Senior Engineering Manager (Rolling Stock)
+676,1,Chief Engineer / Senior Engineering Manager (Signal and Communications)
+677,1,Engineering Head (Automatic Fare Collection)
+678,1,Engineering Head (Mechanical and Electrical)
+679,1,Engineering Head (Permanent Way and Civil Structure)
+680,1,Engineering Head (Power)
+681,1,Engineering Head (Rolling Stock / Engineering Train)
+682,1,Engineering Head (Signal and Communications)
+683,1,Principal Engineer / Engineering Manager (Automatic Fare Collection)
+684,1,Principal Engineer / Engineering Manager (Engineering Train)
+685,1,Principal Engineer / Engineering Manager (Mechanical and Electrical)
+686,1,Principal Engineer / Engineering Manager (Permanent Way and Civil Structure)
+687,1,Principal Engineer / Engineering Manager (Power)
+688,1,Principal Engineer / Engineering Manager (Rolling Stock)
+689,1,Principal Engineer / Engineering Manager (Signal and Communications)
+690,1,Senior Assistant Engineer / Assistant Engineer (Automatic Fare Collection)
+691,1,Senior Assistant Engineer / Assistant Engineer (Engineering Train)
+692,1,Senior Assistant Engineer / Assistant Engineer (Mechanical and Electrical)
+693,1,Senior Assistant Engineer / Assistant Engineer (Permanent Way and Civil Structure)
+694,1,Senior Assistant Engineer / Assistant Engineer (Rolling Stock)
+695,1,Senior Assistant Engineer / Assistant Engineer (Signal and Communications)
+696,1,Senior Engineer / Engineer (Automatic Fare Collection)
+697,1,Senior Engineer / Engineer (Engineering Train)
+698,1,Senior Engineer / Engineer (Mechanical and Electrical)
+699,1,Senior Engineer / Engineer (Permanent Way and Civil Structure)
+700,1,Senior Engineer / Engineer (Rolling Stock)
+701,1,Senior Engineer / Engineer (Signal and Communications)
+702,12,HVDC System Integration Engineer
+703,89,Occupational Therapist / Senior Occupational Therapist (Self-Management of Chronic Conditions)
+704,89,Principal Occupational Therapist (Clinical)
+705,89,Senior Principal Occupational Therapist (Clinical)
+706,32,Assistant Content and Experience Development Executive / Assistant Curator
+707,32,Content and Experience Development Executive / Curator
+708,32,Head of Content and Experience Development / Senior Curator
+709,32,Assistant Education and Programmes Executive
+710,32,Education and Programmes Executive
+711,32,Head of Education and Programmes
+712,2,Game Technical Director
+713,2,Junior Programmer
+714,2,Lead Game Programmer
+715,2,Senior Engine Programmer (Tools Programming)
+716,2,Senior Game Programmer
+717,4,Game Sound Designer
+718,4,Senior Game Sound Designer
+719,115,Chief Information Security Officer
+720,115,Cyber Risk Analyst
+721,115,Cyber Risk Manager
+722,115,Security Operations Analyst
+723,115,Security Operations Manager
+724,115,Threat Analysis Manager
+725,115,Vulnerability Assessment and Penetration Testing Analyst
+726,115,Vulnerability Assessment and Penetration Testing Manager
+727,76,Head of Infrastructure
+728,76,Infrastructure Engineering Manager
+729,79,Data Protection Executive
+730,79,Data Protection Officer
+731,79,Group Data Protection Officer
+732,79,Head of IT Audit
+733,79,IT Audit Manager
+734,79,IT Auditor
+735,116,Chief Sustainability Officer / Sustainability Head / Lead / Sustainability Director
+736,116,"Sustainability / Environment, Social and Governance Specialist"
+737,117,Carbon Auditor
+738,118,HSE Manager
+739,118,HSE Specialist
+740,118,Senior HSE Specialist
+741,93,QA Engineer
+742,93,Senior QA Engineer
+743,119,Carbon Accountant
+744,120,Production Supervisor
+745,120,Senior Superintendent
+746,121,Assistant Equipment Engineer
+747,121,Assistant Facilities Engineer
+748,121,Assistant Integration Engineer
+749,121,Assistant Process Engineer
+750,121,Assistant Product Engineer
+751,121,Assistant Quality Engineer
+752,121,Equipment Engineer
+753,121,Facilities Engineer
+754,121,Integration Engineer
+755,121,Process Engineer
+756,121,Product Engineer
+757,121,Quality Engineer
+758,121,Senior Equipment Engineer
+759,121,Senior Facilities Engineer
+760,121,Senior Integration Engineer
+761,121,Senior Process Engineer
+762,121,Senior Product Engineer
+763,121,Senior Quality Engineer
+764,89,Principal Occupational Therapy Educator
+765,89,Principal Occupational Therapy Manager
+766,89,Senior Principal Occupational Therapy Educator
+767,89,Senior Principal Occupational Therapy Manager
+768,122,Patient Service Assistant Supervisor
+769,122,Patient Service Executive
+770,122,Patient Service Senior Associate
+771,122,Patient Service Supervisor
+772,88,Pharmacy Technician Executive (Drug Compounding and Quality Management)
+773,88,Pharmacy Technician Executive (Pharmacy IT and Supply Chain)
+774,88,Senior Pharmacy Technician Executive (Drug Compounding and Quality Management)
+775,88,Senior Pharmacy Technician Executive (Pharmacy IT and Supply Chain)
+776,90,Principal Physiotherapist (Clinical)
+777,90,Principal Physiotherapy Educator
+778,90,Principal Physiotherapy Manager
+779,90,Senior Principal Physiotherapist (Clinical)
+780,90,Senior Principal Physiotherapy Educator
+781,90,Senior Principal Physiotherapy Manager
+782,91,Principal Speech Therapist (Clinical)
+783,91,Principal Speech Therapy Manager
+784,91,Senior Principal Speech Therapist (Clinical)
+785,91,Senior Principal Speech Therapy Manager
+786,123,Senior Therapy Assistant
+787,123,Therapy Assistant
+788,123,Therapy Support Associate
+789,116,"Sustainability / Environment, Social and Governance Analyst"
+790,124,Chief Audit Executive / Head of Internal Audit
+791,124,Internal Audit Assistant Manager
+792,124,Internal Audit Senior Manager / Internal Audit Manager
+793,124,Senior Internal Auditor / Internal Auditor
+794,58,Senior Technician (Assembly)
+795,58,Technician (Assembly)
+796,125,Engineering and Maintenance Engineer
+797,125,Engineering and Maintenance Principal / Senior Engineer
+798,125,Engineering and Maintenance Senior Technician
+799,125,Engineering and Maintenance Technician
+800,126,Production Engineer / Biotechnologist
+801,126,Production Senior Technician / Production Technician / Assistant Biotechnologist
+802,121,Operator
+803,121,Technician
+804,126,Production Executive
+805,125,Engineering and Maintenance Director
+806,125,Engineering and Maintenance Manager
+807,127,Process Development / MS&T Director
+808,127,Process Development / MS&T Engineer
+809,127,Process Development / MS&T Manager
+810,127,Process Development / MS&T Senior Engineer
+811,1,Senior Technician (Automatic Fare Collection)
+812,1,Technician (Automatic Fare Collection)
+813,128,Business Process Excellence Engineer / Operations Specialist / Industrial Operations Engineer
+814,128,Logistics Innovation and Process Improvement Manager / Customer and Logistics Systems Manager
+815,129,Project Engineer
+816,129,Project Executive
+817,129,Project Manager
+818,129,Senior Project Engineer
+819,130,Warehouse Operations Executive / Inventory Management Executive / Warehouse Assistant Manager
+820,131,Arboriculture Supervisor / Arboriculture Team Leader
+821,131,Arboriculture Technician
+822,131,Arborist / Arboricultural Consultant
+823,132,Landscape Manager
+824,132,Landscape Supervisor / Landscape Assistant Supervisor / Landscape Team Leader
+825,132,Landscape Technician
+826,133,Managing Director
+827,134,Landscape Project Coordinator
+828,134,Landscape Project Manager
+829,135,Nursery Manager
+830,135,Nursery Supervisor / Nursery Team Leader
+831,135,Nursery Technician
+832,136,Cleaning Operations Executive
+833,136,Cleaning Operations Manager
+834,137,Operations Director / General Manager
+835,138,Waste Management Consultant
+836,139,Waste Recycling Executive / Waste Recovery Executive
+837,139,Waste Recycling Manager / Waste Recovery Manager
+838,140,Waste Process Engineer
+839,140,Waste Treatment Executive / Waste Disposal Executive
+840,140,Waste Treatment Plant Manager
+841,141,Waste and Recyclables Collection Executive
+842,141,Waste and Recyclables Collection Manager
+843,128,Operations Integration Specialist / System Integration Engineer / Infrastructure Specialist
+844,142,Logistics Contracts Executive / Logistics Operations Executive / Logistics Operations Specialist
+845,142,Logistics Contracts Manager / Logistics Programme Manager
+846,142,Logistics Solutions Manager
+847,142,Logistics Solutions Specialist / Logistics Solutions Engineer
+848,142,Logistics Solutions and Implementation Director / Tailored Supply Chain Director / Channel Operations Director
+849,12,HVDC Infrastructure Specialist
+850,13,Network Development Engineer
+851,13,Network Development Manager
+852,13,Network Development Principal Engineer
+853,13,Network Development Senior Technical Officer
+854,13,Network Development Technical Officer
+855,13,Network Development Technician
+856,143,Demand Management Data Analyst
+857,143,Demand Management Manager
+858,15,Network Development Engineer
+859,15,Network Development Manager
+860,15,Network Development Principal Engineer
+861,15,Network Development Senior Technical Officer
+862,15,Network Development Technical Officer
+863,15,Network Development Technician
+864,15,Operations and Maintenance Technician
+865,113,Engineering and Maintenance Technician
+866,113,Multi-Utility Operations Engineer
+867,113,Multi-Utility Operations Senior Technical Officer
+868,113,Multi-Utility Operations Shift Manager
+869,113,Multi-Utility Operations Team Leader
+870,113,Multi-Utility Operations Technical Officer
+871,113,Multi-Utility Operations Technician
+872,113,Multi-Utility Operations and Water Quality Control Department Manager
+873,144,Terminal Operations Manager
+874,144,Terminal Operations Senior Technical Officer
+875,144,Terminal Operations Technical Officer
+876,144,Terminal Operations Technician
+877,144,Terminal Operations and Fuel System Operations Department Manager
+878,114,Town Gas Production Engineer
+879,114,Town Gas Production Manager
+880,114,Town Gas Production Senior Technical Officer
+881,114,Town Gas Production Technical Officer
+882,114,Town Gas Production Technician
+883,67,General Worker / Operator
+884,67,NDT Level 3 Engineer (Aircraft Engine / Component Maintenance)
+885,67,Planning Assistant (Aircraft Engine / Component Maintenance)
+886,67,Planning Executive (Aircraft Engine / Component Maintenance)
+887,67,Planning Supervisor (Aircraft Engine / Component Maintenance)
+888,67,Store Assistant
+889,68,General Worker / Operator
+890,68,NDT Level 3 Engineer (Aircraft Maintenance)
+891,68,Planning Assistant (Aircraft Maintenance)
+892,68,Planning Executive (Aircraft Maintenance)
+893,68,Planning Supervisor (Aircraft Maintenance)
+894,68,Store Assistant
+895,69,Planning Assistant (Fleet Management)
+896,69,Planning Executive (Fleet Management)
+897,69,Planning Supervisor (Fleet Management)
+898,58,General Worker / Operator
+899,58,Manufacturing Planning Assistant
+900,58,Manufacturing Planning Executive
+901,58,Manufacturing Planning Supervisor
+902,58,NDT Level 3 Engineer (Manufacturing)
+903,58,Store Assistant
+904,145,Assistant Design Engineer
+905,145,Design Engineer
+906,145,Design Section Manager / Head of Department
+907,145,Senior Design Engineer
+908,11,ESS Project Development Engineer
+909,11,Solar PV Project Development Engineer
+910,72,Design Researcher
+911,72,Head of Strategy
+912,72,Lead Design Researcher
+913,72,Lead Strategist/Lead Business Designer
+914,72,Principal Design Researcher
+915,72,Strategist/Business Designer
+916,46,HSSEQ Manager
+917,46,HSSEQ Superintendent
+918,102,Senior Workplace Safety and Health Officer
+919,102,Workplace Safety and Health Manager
+920,102,Workplace Safety and Health Officer
+921,104,Bell Captain
+922,104,Bellhop / Bell Attendant
+923,146,Business Valuation Associate / Business Valuation Executive
+924,146,Business Valuation Manager
+925,146,Business Valuation Partner / Business Valuation Director
+926,146,Business Valuation Senior / Business Valuation Senior Executive
+927,147,Chief Risk Officer / Risk Partner / Head of Risk / Enterprise Risk Management Director
+928,147,Enterprise Risk Management Associate / Enterprise Risk Management Executive
+929,147,Enterprise Risk Management Manager
+930,147,Enterprise Risk Management Senior / Enterprise Risk Management Senior Executive
+931,148,Mergers and Acquisitions Associate / Mergers and Acquisitions Executive
+932,148,Mergers and Acquisitions Manager
+933,148,Mergers and Acquisitions Partner / Mergers and Acquisitions Director
+934,148,Mergers and Acquisitions Senior / Mergers and Acquisitions Senior Executive
+935,119,Decarbonisation Consultant
+936,149,Business Process Improvement Executive
+937,149,Digital Transformation Executive
+938,149,Digital Transformation Manager
+939,149,Head of Digital Transformation
+940,149,Head of Innovation and Process Excellence
+941,149,Innovation and Process Excellence Manager
+942,36,Economist
+943,36,Head of Strategy / Head of Investment Strategy
+944,36,Head of Strategy / Head of Investment Strategy (Investment Banking)
+945,36,Head of Strategy / Head of Investment Strategy (Private Banking and Wealth Management)
+946,36,Research Analyst
+947,36,Research Analyst (Asset Management)
+948,36,Research Analyst (Investment Banking)
+949,36,Research Analyst (Private Banking and Wealth Management)
+950,36,Senior Economist
+951,46,Head of Strategy and Analysis
+952,46,Head of Trade Management
+953,46,Senior Shipping Analyst
+954,46,Shipping Analyst
+955,46,Trade Management Executive
+956,46,Trade Manager / Assistant Trade Manager
+957,150,HR Business Partner / HR Manager
+958,151,"Associate, Performance and Rewards"
+959,151,"Executive, Performance and Rewards"
+960,151,"Head, Performance and Rewards"
+961,151,"Manager, Performance and Rewards"
+962,46,Assistant Crewing Manager
+963,46,Crewing Executive
+964,46,Crewing Manager
+965,126,Production Director
+966,92,Quality Assurance and Quality Control Director
+967,92,Quality Control Senior Laboratory Analyst / Senior Chemist / Senior Microbiologist
+968,61,Assistant Quality Assurance / Quality Control Engineer
+969,61,Procurement Coordinator / Procurement Executive
+970,61,Procurement Manager
+971,61,Quality Assurance / Quality Control Engineer
+972,61,Quality Assurance / Quality Control Manager
+973,61,Senior Procurement Executive
+974,61,Senior Quality Assurance / Quality Control Engineer
+975,152,Project Engineer
+976,152,Project Manager
+977,152,Senior Project Engineer
+978,143,Billing and Settlement Senior Executive
+979,143,Customer Service Senior Executive
+980,143,"Customer Service, Billing and Settlement Department Manager"
+981,143,"Customer Service, Billing and Settlement Manager"
+982,143,Billing and Settlement Executive
+983,143,Customer Service Executive
+984,122,Patient Service Associate
+985,143,Business-to-Customer Sales Manager
+986,143,"Demand Management, Business-to-Business Sales and Key Accounts, Business-to-Customer Sales and Marketing Department Manager"
+987,126,Production Manager
+988,126,Production Team Supervisor
+989,92,Quality Control Assistant Laboratory Analyst
+990,92,Quality Control Laboratory Analyst / Chemist / Microbiologist
+991,92,Quality Control Manager
+992,153,Execution Trader
+993,153,Head of Trading Desk / Head of Trading Floor / Head of Dealing / Head of Execution
+994,153,Head of Trading Desk / Head of Trading Floor / Head of Dealing / Head of Execution (Asset Management)
+995,153,Head of Trading Desk / Head of Trading Floor / Head of Dealing / Head of Execution (Investment Banking)
+996,153,Quantitative Trader
+997,153,Trader
+998,154,Chief Executive Officer / Managing Director
+999,155,Brand Associate / Assistant
+1000,155,Brand Director
+1001,155,Brand Executive / Customer Loyalty Executive
+1002,155,Brand Manager / Customer Loyalty Manager
+1003,156,E-Commerce Associate / Assistant
+1004,156,E-Commerce Director
+1005,156,E-Commerce Executive
+1006,156,E-Commerce Manager
+1007,157,Visual Merchandiser
+1008,157,Visual Merchandising Associate / Assistant
+1009,158,Assistant Marketing Executive
+1010,158,Marketing Director
+1011,158,Marketing Executive
+1012,158,Marketing Manager
+1013,159,Chief Executive Officer / Chief Operating Officer / Managing Director / Country Manager
+1014,106,Director of Marketing Communications / Director of Public Relations / Assistant Director of Marketing Communications / Assistant Director of Public Relations
+1015,106,Director of Sales and Marketing
+1016,106,Marketing Communications Executive / Digital Marketing Executive / Public Relations Executive
+1017,106,Marketing Communications Manager / Digital Marketing Manager / Public Relations Manager / Assistant Marketing Communications Manager / Assistant Digital Marketing Manager / Assistant Public Relations Manager
+1018,38,Marketing Director
+1019,38,Marketing Executive
+1020,38,Marketing Manager
+1021,78,Associate UI Designer
+1022,78,Lead UI Designer
+1023,78,UI Designer
+1024,79,Associate UX Designer
+1025,79,Lead UX Designer
+1026,79,UX Designer
+1027,39,Community Development Executive
+1028,39,Community Development Specialist
+1029,39,Head of Marketing / Marketing Director
+1030,39,Marketing Executive
+1031,39,Marketing Manager
+1032,160,"Branding, Marketing & Communications Director / Assistant Director"
+1033,160,"Branding, Marketing & Communications Manager / Assistant Manager"
+1034,160,"Branding, Marketing & Communications Senior Executive / Executive"
+1035,161,Chief Executive Officer / Executive Director
+1036,162,Assistant Market Development Manager / Market Development Executive
+1037,162,General Manager
+1038,162,Marketing Development Manager
+1039,162,Regional Manager / Export Manager
+1040,87,Group Beverage Manager
+1041,87,Head Barista
+1042,87,Operations Director / Operations Manager
+1043,103,Executive Chef
+1044,103,Executive Sous Chef
+1045,163,Multi-Outlet Manager
+1046,163,Outlet Manager / Assistant Outlet Manager
+1047,154,Executive Chef
+1048,154,Executive Pastry Chef
+1049,154,Pastry Chef
+1050,164,Head of Marketing
+1051,164,Marketing Assistant / Marketing Coordinator
+1052,164,Marketing Executive
+1053,164,Marketing Manager
+1054,154,Assistant Pastry Chef
+1055,154,Assistant Pastry Cook / Assistant Baker / Kitchen Assistant
+1056,154,Baker
+1057,154,Head Baker
+1058,154,Pastry Cook
+1059,95,Engineer - Linear Media Infrastructure
+1060,95,Manager - Linear Media Infrastructure
+1061,95,Technician - Linear Media Infrastructure
+1062,165,Feedstock Supply Trader
+1063,165,Process Engineering Manager
+1064,165,Production Manager
+1065,165,Supply Chain / Commercial Manager
+1066,166,General Manager / Site Director / Vice President
+1067,167,Technical Service Manager
+1068,125,Engineering and Maintenance Supervisor
+1069,168,Site Director / Head
+1070,169,Director / Managing Director / Chief Executive / General Manager
+1071,8,Principal Engineer / Manager (Commissioning)
+1072,8,Senior Engineer / Assistant Manager (Commissioning)
+1073,170,Chief Executive Officer / Managing Director / General Manager / President
+1074,171,Manager (Engineering Procurement)
+1075,171,Senior Engineer (Engineering Procurement)
+1076,172,Assistant Manager / Senior Engineer (Project Development)
+1077,172,Manager (Project Development)
+1078,173,Director (Project Financing)
+1079,173,Manager (Project Financing)
+1080,173,Senior Executive (Project Financing)
+1081,107,Account Operations Manager
+1082,107,Credit and Lending Operations Manager
+1083,107,Credit and Lending Operations Manager (Corporate Banking)
+1084,107,Credit and Lending Operations Manager (Retail Banking)
+1085,107,Head of Operations
+1086,36,Head of Product Marketing
+1087,36,Head of Product Marketing (Asset Management)
+1088,36,Head of Product Marketing (Insurance)
+1089,36,Head of Product Marketing (Investment Banking)
+1090,36,Head of Product Marketing (Private Banking and Wealth Management)
+1091,36,Head of Product Marketing (Retail Banking)
+1092,36,Product Marketing Manager
+1093,36,Product Marketing Manager (Asset Management)
+1094,36,Product Marketing Manager (Insurance)
+1095,36,Product Marketing Manager (Investment Banking)
+1096,36,Product Marketing Manager (Private Banking and Wealth Management)
+1097,36,Product Marketing Manager (Retail Banking)
+1098,108,Compliance Advisory Manager
+1099,108,Head of Compliance
+1100,108,Head of Legal
+1101,108,Legal Counsel
+1102,174,Head of Sustainability
+1103,174,Sustainability Manager
+1104,175,Chief Executive / Managing Director
+1105,176,Quality Assurance and Quality Control Manager
+1106,176,Quality Assurance and Quality Control Specialist / Food Safety Specialist / Laboratory Manager
+1107,104,Assistant Front Office Manager / Assistant Operations Manager / Duty Manager / Guest Services Manager / Guest Relations Manager
+1108,104,Chef Concierge / Assistant Chef Concierge
+1109,104,Front Office Manager / Operations Manager
+1110,177,Hotel Manager / Resident Manager / Executive Assistant Manager
+1111,177,Rooms Division Manager / Director of Rooms
+1112,178,General Manager
+1113,179,Director of Revenue Management
+1114,179,Reservations Manager / Assistant Reservations Manager
+1115,179,Revenue Manager / Assistant Revenue Manager
+1116,106,Director of Sales / Director of Catering / Assistant Director of Sales / Assistant Director of Catering
+1117,106,Sales Manager / Catering Sales Manager / Assistant Sales Manager / Assistant Catering Sales Manager
+1118,115,Forensics Investigation Manager
+1119,115,Incident Investigation Manager
+1120,180,Business Intelligence Director
+1121,180,Business Intelligence Manager
+1122,180,Chief Data Officer / Chief Artificial Intelligence Officer
+1123,180,Data Analyst / Associate Data Engineer
+1124,180,Head of Data Science and Artificial Intelligence
+1125,76,Automation and Orchestration Engineer
+1126,76,Network Engineer
+1127,76,Radio Frequency Engineer
+1128,181,Chief Information Officer
+1129,77,Quality Assurance Manager
+1130,38,Business Development Manager
+1131,38,Channel Sales Manager
+1132,79,Head of Product
+1133,79,Product Manager
+1134,79,Senior Product Manager
+1135,182,Chief Technology Officer
+1136,183,Partner / Director / Counsel
+1137,183,Senior IP Legal Associate / IP Legal Associate
+1138,184,IP Paralegal / IP Executive
+1139,185,IP Commercialisation Associate / IP Commercialisation Analyst
+1140,185,IP Director / IP Strategist
+1141,185,Senior IP Consultant / Senior IP Commercialisation Manager / IP Consultant / IP Commercialisation Manager
+1142,185,Senior IP Manager / IP Manager
+1143,185,Senior IP Paralegal / IP Management Associate
+1144,186,Partner / Director / Principal
+1145,186,Patent Attorney Trainee / Patent Agent Trainee
+1146,186,Senior Patent Attorney / Senior Patent Agent / Patent Attorney / Patent Agent
+1147,62,Chief Executive Officer / Chief Operating Officer / Chief Technology Officer / Managing Director / General Manager / Vice-President
+1148,62,Plant Manager
+1149,187,Deputy Workshop Manager
+1150,187,Engineering Manager
+1151,187,Workshop Manager
+1152,188,Bus Operations Control Centre Manager
+1153,188,Depot Operations Manager / Depot Manager
+1154,188,Interchange Manager
+1155,189,Chief Controller / Controller
+1156,189,"Head, Operations Control Centre"
+1157,189,"Head, Train Operations / Head, Station Operations / Head, Passenger Services"
+1158,189,Operations Control Centre Manager
+1159,189,Rail Service Manager
+1160,189,Station Operations Manager
+1161,189,Train Operations Manager
+1162,10,Assistant / Trainee Sales and Purchase Broker
+1163,10,Assistant Chartering Broker / Trainee Chartering Broker
+1164,10,Chartering Broker
+1165,10,Desk Head (Chartering)
+1166,10,Desk Head (Sales and Purchase)
+1167,10,Marine Consultant
+1168,10,Principal Marine Consultant
+1169,10,Principal Marine Surveyor
+1170,10,Sales and Purchase Broker
+1171,99,Head of Pilotage
+1172,99,Head of Port Business Development / Operations
+1173,99,Operations Executive / Operations Supervisor
+1174,99,Port Business Development / Operations Manager
+1175,46,Assistant Marine Superintendent
+1176,46,Assistant Technical Superintendent
+1177,46,Chartering Manager
+1178,46,Demurrage Analyst / Laytime Analyst / Post Fixture Executive
+1179,46,Demurrage Manager / Laytime Manager / Post Fixture Manager
+1180,46,Head of Chartering
+1181,46,Marine Manager
+1182,46,Senior Marine Superintendent / Marine Superintendent
+1183,46,Senior Technical Superintendent / Technical Superintendent
+1184,46,Senior Vessel Operator / Vessel Operator
+1185,46,Ship Agency Manager
+1186,46,Technical Manager
+1187,190,Managing Director / General Manager / Chief Operating Officer / Fleet Director
+1188,158,Assistant Sponsorship Executive
+1189,158,Business Development Director
+1190,158,Business Development Manager
+1191,158,Sales Director
+1192,158,Sales Executive / Travel Consultant (Sales)
+1193,158,Sales Manager
+1194,158,Sponsorship Director
+1195,158,Sponsorship Executive
+1196,158,Sponsorship Manager
+1197,33,Assistant Event Executive / Assistant Project Executive
+1198,33,Assistant Research Executive
+1199,33,Event Executive / Project Executive
+1200,33,Event Manager / Project Manager
+1201,33,Exhibition Director / Conference Director / Meeting Director
+1202,33,Exhibition Producer / Conference Producer / Meeting Planner
+1203,33,Project Director
+1204,33,Research Executive
+1205,34,Assistant Coordination and Reservations Executive
+1206,34,Assistant Customer Support Executive / Assistant Travel Consultant (Customer Support)
+1207,34,Assistant Product and Experience Development Executive
+1208,34,Coordination and Reservations Executive
+1209,34,Customer Support Executive / Travel Consultant (Customer Support)
+1210,34,Product and Experience Development Director
+1211,34,Product and Experience Development Executive
+1212,34,Product and Experience Development Manager
+1213,34,Travel Account Director
+1214,34,Travel Account Executive
+1215,34,Travel Account Manager
+1216,35,Assistant Event Services Executive
+1217,35,Event Services Director
+1218,35,Event Services Executive
+1219,35,Event Services Manager
+1220,191,Capability Building Director / Assistant Director
+1221,191,Capability Building Manager / Assistant Manager
+1222,191,Capability Building Senior Executive / Executive
+1223,192,Industry Development Director / Assistant Director
+1224,192,Industry Development Manager / Assistant Manager
+1225,192,Industry Development Senior Executive / Executive
+1226,193,Internationalisation Director / Assistant Director
+1227,193,Internationalisation Manager / Assistant Manager
+1228,193,Internationalisation Senior Executive / Executive
+1229,194,Membership Director / Assistant Director
+1230,194,Membership Manager / Assistant Manager
+1231,194,Membership Senior Executive / Executive
+1232,195,Research Director / Assistant Director
+1233,195,Research Manager / Assistant Manager
+1234,195,Research Senior Analyst / Analyst
+1235,196,Strategy & Governance Director / Assistant Director
+1236,196,Strategy & Governance Manager / Assistant Manager
+1237,196,Strategy & Governance Senior Executive / Executive
+1238,197,Centre Director / Head of Institute
+1239,48,Business Development Manager
+1240,48,Learning Support Executive
+1241,48,Learning Systems Manager
+1242,48,Learning and Operations Manager
+1243,48,Product Development Manager
+1244,198,Credit Manager
+1245,198,Head of Credit
+1246,198,Head of Regulations and Trade Controls
+1247,198,Head of Risk
+1248,198,Head of Trade Finance
+1249,198,Head of Treasury
+1250,198,Regulations and Trade Controls Manager
+1251,198,Risk Manager
+1252,198,Trade Finance Manager
+1253,198,Treasury Manager
+1254,164,Business Development Manager
+1255,164,Head of Business Development
+1256,164,Senior Business Analyst / Senior Market Research Analyst / Senior Market Analyst
+1257,199,Head of Operations
+1258,199,Head of Procurement / Head of Sourcing
+1259,199,Operations Manager
+1260,199,Procurement Manager / Sourcing Manager
+1261,200,Commodities Trading Manager / Senior Commodities Trader
+1262,200,Derivatives Trading Manager / Senior Derivatives Trader
+1263,200,Head of Commodities Trading
+1264,200,Head of Derivatives Trading
+1265,200,Head of Sales
+1266,200,Sales Manager
+1267,201,Assistant Quantity Surveyor / Assistant Cost Manager
+1268,201,Associate Director (Quantity Surveying) / Contracts Director
+1269,201,Quantity Surveyor / Contracts Manager / Cost Manager
+1270,201,Senior Quantity Surveyor / Senior Contracts Manager / Senior Cost Manager
+1271,8,Engineer / Supervisor (Commissioning)
+1272,171,Engineer (Engineering Procurement)
+1273,172,Assistant Engineer / Officer (Project Development)
+1274,172,Engineer (Project Development)
+1275,80,Building Executive / Facilities Executive / Property Executive
+1276,80,Building Officer / Facilities Officer / Property Officer
+1277,80,Building Supervisor
+1278,202,Brokerage Supervisor / Freight Supervisor
+1279,202,Freight Officer
+1280,202,Import Export Manager / Freight Allocation Manager / Freight Shipping Manager / Freight Documentation Manager / Freight Pricing Manager
+1281,202,Shipping Specialist / Import Export Specialist / Freight Executive
+1282,46,Capacity Management Executive
+1283,46,Capacity Manager
+1284,46,Head of Capacity Management
+1285,46,Head of Vessel Stowage
+1286,46,Stowage Manager / Senior Stowage Planner
+1287,46,Stowage Planner / Stowage Coordinator
+1288,99,Equipment Specialist
+1289,99,Senior Equipment Specialist
+1290,187,Engineer
+1291,187,Master Technical Specialist
+1292,187,Section Supervisor / Foreman
+1293,187,Senior Technical Specialist
+1294,187,Senior Technician
+1295,187,Technical Specialist
+1296,187,Technician
+1297,187,Workshop Supervisor / Senior Foreman
+1298,188,Senior Depot Officer / Senior Depot Assistant / Depot Officer / Depot Assistant
+1299,188,Senior Depot Supervisor / Depot Supervisor
+1300,188,Bus Captain
+1301,188,Chief Bus Captain / Master Bus Captain
+1302,188,Senior Bus Captain
+1303,188,Senior Interchange Officer / Senior Interchange Assistant / Interchange Officer / Interchange Assistant
+1304,188,Senior Interchange Supervisor / Interchange Supervisor
+1305,188,Chief Bus Controller / Bus Operations Control Centre Controller
+1306,188,Deputy Bus Operations Control Centre Manager
+1307,203,Restructuring and Insolvency Associate / Restructuring and Insolvency Executive
+1308,203,Restructuring and Insolvency Manager
+1309,203,Restructuring and Insolvency Partner / Restructuring and Insolvency Director
+1310,203,Restructuring and Insolvency Senior / Restructuring and Insolvency Senior Executive
+1311,117,Carbon Verifier
+1312,204,"Head, Employee Experience and Relations"
+1313,204,"Manager, Employee Experience and Relations"
+1314,150,"Head, HR Business Partner"
+1315,205,"Head, Learning and Organisation Development"
+1316,205,"Manager, Learning and Organisation Development"
+1317,206,"Head, Operations and Technology"
+1318,206,"Manager, Operations and Technology"
+1319,207,Chief Human Resource Officer
+1320,208,"Head, Talent Attraction"
+1321,208,"Manager, Talent Attraction"
+1322,209,"Executive, Talent Attraction and Employee Experience and Relations"
+1323,210,"Head, Talent Management"
+1324,210,"Manager, Talent Management"
+1325,211,"Executive, Talent Management and Learning and Organisational Development"
+1326,79,Business Architect
+1327,76,Infrastructure Architect
+1328,97,Data Centre Operations Engineer
+1329,97,Database Support Engineer
+1330,97,Infrastructure Support Engineer
+1331,97,Operations Centre Support Engineer
+1332,97,Systems Support Engineer
+1333,165,Principal Engineer (Technology)
+1334,165,Production Planner
+1335,165,Superintendent
+1336,212,Chief Executive Officer / Chief Operating Officer / Managing Director / General Manager
+1337,128,IT Business Solutions Manager / Digital Services Manager
+1338,213,Business Development Director / Country Route Development Director / Trade Lane Director / Freight Trade Director
+1339,213,Customer Service Manager
+1340,129,Depot Supervisor / Traffic Supervisor / Dispatch Supervisor / Hub Operations Supervisor
+1341,129,Traffic Controller / Transport Officer / Line Haul Operations Officer
+1342,129,Transport Assistant Manager / Transport Executive / Line Haul Operations Executive
+1343,129,Transportation Operations Manager
+1344,55,Operations Director / Retail Manager / Operations Manager
+1345,120,Head of Department
+1346,120,Manager / Senior Manager
+1347,120,Managing Director / General Manager / Vice-President
+1348,121,Fellow / Senior Fellow
+1349,121,Principal Engineer
+1350,107,Head of Operations Risk and Control
+1351,107,Operations Risk and Control Analyst
+1352,107,Operations Risk and Control Manager
+1353,108,Head of Operational Risk Management
+1354,108,Head of Operational Risk Management (Corporate Banking)
+1355,108,Head of Operational Risk Management (Insurance)
+1356,108,Head of Operational Risk Management (Investment Banking)
+1357,108,Head of Operational Risk Management (Retail Banking)
+1358,108,"Head of Technology, Information and Cybersecurity Risk Management"
+1359,108,Operational Risk Analyst
+1360,108,Operational Risk Analyst (Corporate Banking)
+1361,108,Operational Risk Analyst (Insurance)
+1362,108,Operational Risk Analyst (Investment Banking)
+1363,108,Operational Risk Analyst (Retail Banking)
+1364,108,Operational Risk Assistant
+1365,108,Operational Risk Assistant (Corporate Banking)
+1366,108,Operational Risk Assistant (Insurance)
+1367,108,Operational Risk Assistant (Investment Banking)
+1368,108,Operational Risk Assistant (Retail Banking)
+1369,108,Operational Risk Manager
+1370,108,Operational Risk Manager (Corporate Banking)
+1371,108,Operational Risk Manager (Insurance)
+1372,108,Operational Risk Manager (Investment Banking)
+1373,108,Operational Risk Manager (Retail Banking)
+1374,108,"Technology, Information and Cybersecurity Risk Analyst"
+1375,108,"Technology, Information and Cybersecurity Risk Manager"
+1376,214,Chief Executive Officer / Managing Director / General Manager
+1377,198,Senior Risk Analyst / Risk Analyst
+1378,199,Operations Assistant / Operations Coordinator
+1379,199,Operations Executive
+1380,10,Marine Underwriter
+1381,10,Marine Underwriting Assistant
+1382,10,Senior Marine Surveyor / Marine Surveyor
+1383,46,Head of Vessel Operations / Director of Operations
+1384,46,Hub Coordinator / Shipping Clerk
+1385,46,Senior Charterer / Charterer
+1386,46,Ship Agent / Boarding Officer
+1387,46,Vessel Operations Manager
+1388,215,Vice President
+1389,216,Pest Control Manager
+1390,142,Logistics Solutions Analyst
+1391,213,Business Development Manager / Sales and Marketing Manager / Vertical Sales Account Manager / Key Account Manager / Project Cargo Sales Manager / Route Development Manager / Trade Lane Manager
+1392,213,Field Sales Executive / Key Account Executive / Sales Operations Management Specialist
+1393,213,Order Fulfilment Coordinator / Sales Operations Management Coordinator / Customer Service Coordinator
+1394,57,Associate (Corporate)
+1395,57,Associate (Disputes)
+1396,57,Partner (Corporate)
+1397,57,Partner (Disputes)
+1398,57,Senior Associate (Corporate)
+1399,57,Senior Associate (Disputes)
+1400,217,Carbon Investment Specialist
+1401,149,Innovation Executive
+1402,218,Family Office Executive
+1403,218,Family Office Management Professional
+1404,107,Claims Manager
+1405,107,Head of Claims
+1406,107,Head of Underwriting
+1407,107,Underwriting Manager
+1408,36,Head of Product Management
+1409,36,Head of Product Management (Asset Management)
+1410,36,Head of Product Management (Corporate Banking)
+1411,36,Head of Product Management (Insurance)
+1412,36,Head of Product Management (Investment Banking)
+1413,36,Head of Product Management (Private Banking and Wealth Management)
+1414,36,Head of Product Management (Retail Banking)
+1415,36,Head of Wealth Planning / Director of Wealth Planning
+1416,36,Product Analyst
+1417,36,Product Analyst (Asset Management)
+1418,36,Product Analyst (Corporate Banking)
+1419,36,Product Analyst (Insurance)
+1420,36,Product Analyst (Investment Banking)
+1421,36,Product Analyst (Private Banking and Wealth Management)
+1422,36,Product Analyst (Retail Banking)
+1423,36,Product Development Analyst
+1424,36,Product Development Analyst (Asset Management)
+1425,36,Product Development Analyst (Corporate Banking)
+1426,36,Product Development Analyst (Insurance)
+1427,36,Product Development Analyst (Investment Banking)
+1428,36,Product Development Analyst (Retail Banking)
+1429,36,Product Development Manager
+1430,36,Product Development Manager (Asset Management)
+1431,36,Product Development Manager (Corporate Banking)
+1432,36,Product Development Manager (Insurance)
+1433,36,Product Development Manager (Investment Banking)
+1434,36,Product Development Manager (Retail Banking)
+1435,36,Product Manager
+1436,36,Product Manager (Asset Management)
+1437,36,Product Manager (Corporate Banking)
+1438,36,Product Manager (Insurance)
+1439,36,Product Manager (Investment Banking)
+1440,36,Product Manager (Private Banking and Wealth Management)
+1441,36,Product Manager (Retail Banking)
+1442,36,Product Marketing Executive
+1443,36,Product Marketing Executive (Asset Management)
+1444,36,Product Marketing Executive (Insurance)
+1445,36,Product Marketing Executive (Investment Banking)
+1446,36,Product Marketing Executive (Private Banking and Wealth Management)
+1447,36,Product Marketing Executive (Retail Banking)
+1448,36,Wealth Planner
+1449,108,Credit Risk Manager
+1450,108,Credit Risk Manager (Corporate Banking)
+1451,108,Credit Risk Manager (Investment Banking)
+1452,108,Credit Risk Manager (Private Banking and Wealth Management)
+1453,108,Credit Risk Manager (Retail Banking)
+1454,108,Head of Credit Risk Management
+1455,108,Head of Credit Risk Management (Corporate Banking)
+1456,108,Head of Credit Risk Management (Investment Banking)
+1457,108,Head of Credit Risk Management (Private Banking and Wealth Management)
+1458,108,Head of Credit Risk Management (Retail Banking)
+1459,37,Broker / Business Development Executive - Brokers
+1460,37,Business Development Manager - Brokers
+1461,37,Family Office Advisor - Private Banking
+1462,37,Head of Business Development - Brokers
+1463,37,Head of Product Desk / Head of Product Sales
+1464,37,Head of Product Desk / Head of Product Sales (Corporate Banking)
+1465,37,Head of Product Desk / Head of Product Sales (Investment Banking)
+1466,37,Head of Product Desk / Head of Product Sales (Retail Banking)
+1467,37,Product Specialist / Product Sales Specialist
+1468,37,Product Specialist / Product Sales Specialist (Corporate Banking)
+1469,37,Product Specialist / Product Sales Specialist (Investment Banking)
+1470,37,Product Specialist / Product Sales Specialist (Retail Banking)
+1471,76,Associate Infrastructure Engineer
+1472,76,Associate Network Engineer
+1473,76,Associate Radio Frequency Engineer
+1474,79,Associate Business Analyst
+1475,79,Business Analyst / Artificial Intelligence Translator
+1476,157,Merchandising Associate / Assistant
+1477,157,Merchandising Director
+1478,157,Merchandising Executive / Category Executive / House Brand Executive
+1479,157,Merchandising Manager / Category Manager / House Brand Manager
+1480,10,Head of Marine Claims
+1481,10,Head of Underwriting
+1482,10,Senior Marine Claims Executive
+1483,47,Learning Consultant / Learning Solutionist
+1484,47,Learning Technology Designer
+1485,180,Artificial Intelligence Applied Researcher
+1486,180,Data Scientist / Artificial Intelligence Scientist
+1487,39,Head - Analytics and Customer Insights
+1488,39,Product Manager
+1489,39,Senior Executive - Product Management
+1490,219,Carbon Project Developer
+1491,217,Carbon Trader
+1492,11,Solar PV Project Development Site Supervisor
+1493,11,Solar PV and ESS Business Development Senior Executive
+1494,11,Solar PV and ESS Business Development and Project Financing Manager
+1495,11,Solar PV and ESS Project Financing Senior Executive
+1496,12,HVDC Operations and Maintenance Specialist
+1497,13,Network Planning and Strategy Senior Technical Officer
+1498,13,Network Planning and Strategy Technical Officer
+1499,143,Business-to-Business Sales and Key Accounts Executive
+1500,143,Business-to-Business Sales and Key Accounts Manager
+1501,143,Business-to-Business Sales and Key Accounts Senior Executive
+1502,143,Business-to-Customer Sales Senior Executive
+1503,143,Marketing Manager
+1504,143,Marketing and Channel Management Senior Executive
+1505,143,Product and Pricing Senior Executive
+1506,220,Energy Trading Manager
+1507,220,Energy Trading Trader
+1508,220,Energy Trading and Portfolio Management Department Manager
+1509,220,Portfolio Management Analyst
+1510,220,Portfolio Management Manager
+1511,15,Network Planning and Strategy Senior Technical Officer
+1512,15,Network Planning and Strategy Technical Officer
+1513,221,LNG Research Analyst
+1514,221,LNG Trading Trader
+1515,221,LNG Trading and Research Head
+1516,113,Water Quality Control Chemist
+1517,113,Water Quality Control Manager
+1518,113,Water Quality Control Principal Chemist
+1519,113,Water Quality Control Senior Technical Officer
+1520,113,Water Quality Control Technical Officer
+1521,113,Water Quality Control Technician
+1522,114,Town Gas Plant Maintenance Technician
+1523,222,"Installation, Inspection and Servicing Engineer"
+1524,222,"Installation, Inspection and Servicing Manager"
+1525,222,"Installation, Inspection and Servicing Senior Technical Officer"
+1526,222,Project Coordination Engineer
+1527,222,Project Coordination Manager
+1528,222,Project Coordination Senior Technical Officer / Project Coordination Technical Officer
+1529,222,Town Gas Technical Services Department Manager
+1530,70,Design Coach/Design Accelerator
+1531,70,Design Facilitator
+1532,70,Head of Transformation
+1533,71,Chief Design Officer/Chief Innovation Officer/Chief Experience Officer/Chief Strategy Officer
+1534,37,Head of Placement
+1535,37,Placement Executive
+1536,37,Placement Manager
+1537,115,Associate Security Analyst
+1538,115,Security Architect
+1539,115,Senior Security Engineer / Security Engineer
+1540,180,Artificial Intelligence / Machine Learning Engineer
+1541,180,Data Architect
+1542,180,Data Engineer
+1543,180,Senior Artificial Intelligence / Machine Learning Engineer
+1544,180,Senior Data Engineer
+1545,97,Associate Data Centre Operations Engineer
+1546,97,Associate Database Support Engineer
+1547,97,Associate Infrastructure Support Engineer
+1548,97,Associate Operations Centre Support Engineer
+1549,97,Associate Systems Support Engineer
+1550,77,Quality Assurance Engineer
+1551,223,Assistant Costume Designer
+1552,223,Assistant Set Designer
+1553,223,Costume Coordinator
+1554,223,Costume Designer
+1555,223,Make-up and / or Hair Designer
+1556,223,Producer
+1557,223,Production Coordinator
+1558,223,Production Manager
+1559,223,Set Designer
+1560,224,Insurer for Decarbonisation Projects
+1561,173,Executive (Project Financing)
+1562,107,Claims Appraiser / Claims Examiner / Claims Executive
+1563,107,Underwriting Executive
+1564,179,Reservations Executive / Reservations Supervisor
+1565,179,Revenue Specialist / Revenue Analyst
+1566,106,Sales Executive / Catering Sales Executive
+1567,213,Order Management Executive / Quote Desk Executive / Order Fulfilment Officer / Inside Sales Officer
+1568,225,Chief Executive Officer / General Manager / President
+1569,225,Deputy General Manager / Chief Operating Officer
+1570,225,Operations Manager
+1571,226,Senior Workplace Safety and Health Officer
+1572,226,Workplace Safety and Health Manager
+1573,227,Assistant Producer - Broadcast (Casting)
+1574,227,Assistant Producer - Film (Casting)
+1575,227,Executive Producer - Broadcast
+1576,227,Executive Producer - Film
+1577,227,Line Producer - Film
+1578,227,Producer - Broadcast (Casting)
+1579,227,Producer - Film (Casting)
+1580,227,Production Manager (Location Scouting)
+1581,39,Executive - Content Acquisition
+1582,39,Head - Content
+1583,39,Head - Content Acquisition
+1584,39,Head - Content Commissioning
+1585,39,Head - Programme Planning and Scheduling
+1586,39,Manager - Analytics and Customer Insights
+1587,39,Manager - Content Acquisition
+1588,39,Manager - Content Commissioning
+1589,10,Marine Claims Executive
+1590,164,Business Analyst / Market Research Analyst / Market Analyst
+1591,199,Procurement Executive / Sourcing Executive
+1592,200,Commodities Trader
+1593,200,Derivatives Trader
+1594,200,Sales Executive
+1595,228,Director / Senior Regional Manager / Senior Corporate Manager
+1596,228,Senior Vice President / Vice President / Assistant Vice President
+1597,167,Senior Technical Service Engineer
+1598,36,Assistant Wealth Planner
+1599,46,Head of Network Planning
+1600,46,Network Planner
+1601,46,Network Planning Manager
+1602,200,Sales Assistant / Sales Coordinator
+1603,107,Credit and Lending Operations Analyst
+1604,107,Credit and Lending Operations Analyst (Corporate Banking)
+1605,107,Credit and Lending Operations Analyst (Retail Banking)
+1606,36,Head of Reserving and Pricing Actuarial
+1607,36,Reserving and Pricing Actuarial Manager
+1608,37,Business Manager
+1609,37,Business Manager (Asset Management)
+1610,37,Business Manager (Investment Banking)
+1611,37,Business Manager (Private Banking and Wealth Management)
+1612,37,Head of Business Management
+1613,37,Head of Business Management (Investment Banking)
+1614,198,Senior Credit Analyst / Credit Analyst
+1615,198,Senior Regulations and Trade Controls Analyst / Regulations and Trade Controls Analyst
+1616,198,Senior Trade Finance Analyst / Trade Finance Analyst
+1617,198,Senior Treasury Analyst / Treasury Analyst
+1618,199,Contract Specialist
+1619,121,Staff Engineer / Senior Staff Engineer
+1620,107,Account Operations Analyst
+1621,87,Barista Supervisor / Senior Barista
+1622,163,Executive / Service Supervisor
+1623,229,Chief Executive Officer / Chief Operating Officer / Managing Director / General Manager / President
+1624,226,Workplace Safety and Health Officer
+1625,108,Head of Risk Analytics / Head of Compliance Analytics
+1626,108,Head of Risk Analytics / Head of Compliance Analytics (Asset Management)
+1627,108,Head of Risk Analytics / Head of Compliance Analytics (Corporate Banking)
+1628,108,Head of Risk Analytics / Head of Compliance Analytics (Retail Banking)
+1629,108,Head of Risk Analytics / Head of Compliance Analytics (investment Banking)
+1630,108,Risk Analytics Analyst / Compliance Analytics Analyst
+1631,108,Risk Analytics Analyst / Compliance Analytics Analyst (Asset Management)
+1632,108,Risk Analytics Analyst / Compliance Analytics Analyst (Corporate Banking)
+1633,108,Risk Analytics Analyst / Compliance Analytics Analyst (Retail Banking)
+1634,108,Risk Analytics Analyst / Compliance Analytics Analyst (investment Banking)
+1635,108,Risk Analytics Manager / Compliance Analytics Manager
+1636,108,Risk Analytics Manager / Compliance Analytics Manager (Asset Management)
+1637,108,Risk Analytics Manager / Compliance Analytics Manager (Corporate Banking)
+1638,108,Risk Analytics Manager / Compliance Analytics Manager (Retail Banking)
+1639,108,Risk Analytics Manager / Compliance Analytics Manager (investment Banking)
+1640,108,Credit Risk Analyst
+1641,108,Credit Risk Analyst (Corporate Banking)
+1642,108,Credit Risk Analyst (Investment Banking)
+1643,108,Credit Risk Analyst (Private Banking and Wealth Management)
+1644,108,Credit Risk Analyst (Retail Banking)
+1645,108,Head of Risk Strategy
+1646,108,Risk Strategy Manager
+1647,57,Senior Legal Counsel
+1648,144,Fuel System Operations Executive
+1649,144,Fuel System Operations Manager / Fuel System Operations Senior Executive
+1650,222,"Installation, Inspection and Servicing Technical Officer"
+1651,4,2nd Assistant Cameraman / Clapper / Loader (Data Wrangling)
+1652,108,Head of Sustainability Risk
+1653,108,Sustainability Risk Analyst
+1654,108,Sustainability Risk Manager
+1655,230,Community Care Associate
+1656,230,Senior Community Care Associate
+1657,231,Care Staff
+1658,231,Senior Care Staff
+1659,232,Social Service Assistant
+1660,233,Assistant Nurse Clinician
+1661,233,Enrolled Nurse
+1662,233,Nurse Clinician
+1663,233,Principal Enrolled Nurse
+1664,233,Senior Enrolled Nurse
+1665,233,Senior Nurse Clinician
+1666,233,Senior Staff Nurse
+1667,202,Freight Inspector / Incoming Quality Inspector
+1668,202,Import Export Administrative Assistant / Shipping Assistant
+1669,202,Incoming Quality Coordinator / Tally Assistant
+1670,202,Permit Coordinator / Shipping Coordinator / Custom Clearance Coordinator
+1671,213,Order Fulfilment Assistant / Sales Operations Management Assistant / Customer Service Assistant
+1672,129,Dispatch Operator / Transport Operator / Last Mile Delivery Driver / Container Driver
+1673,129,Project Supervisor
+1674,99,Deck Officer (Special Limit)
+1675,99,Master (Special Limit)
+1676,46,2nd / 3rd / 4th Officer
+1677,46,Ship Captain / Chief Mate
+1678,130,Material Handling Equipment (MHE) Operator / Forklift Operator / Warehouse Assistant / Inventory Assistant
+1679,130,Warehouse Storekeeper / Inventory Coordinator / Logistics Coordinator
+1680,130,"Health, Safety and Environmental Coordinator"
+1681,130,"Health, Safety and Environmental Manager"
+1682,130,"Health, Safety and Environmental Officer"
+1683,128,Logistics Data Management Coordinator / Logistics Data Entry Coordinator
+1684,65,Social Work Associate
+1685,66,Youth Work Associate
+1686,234,Centre Leader
+1687,234,Curriculum / Pedagogy Specialist
+1688,234,Deputy Centre Leader
+1689,234,Lead Early Years Educators
+1690,234,Lead Preschool Educator
+1691,234,Senior Centre Leader
+1692,234,Senior Early Years Educators
+1693,234,Senior Infant Educator
+1694,234,Senior Preschool Educator
+1695,235,Centre Manager
+1696,235,Director
+1697,236,Cluster Manager
+1698,237,"Landscape Worker (Nursery Work, Arboriculture)"
+1699,165,Learning and Development Specialist
+1700,165,Learning and Development Superintendent
+1701,165,Operation Specialist
+1702,165,Process Engineer
+1703,165,Process Safety Engineer
+1704,165,Production Supervisor
+1705,165,Senior Process Engineer
+1706,165,Senior Process Safety Engineer
+1707,167,Application Chemist
+1708,167,Senior Application Chemist
+1709,167,Technical Service Engineer
+1710,108,Compliance Advisory Executive
+1711,108,Paralegal / Legal Executive
+1712,176,Quality Assurance and Quality Control Supervisor / Quality Assurance and Quality Control Executive / Laboratory Supervisor
+1713,54,Research and Development Chef
+1714,233,Assistant Director of Nursing (Clinical)
+1715,233,Assistant Director of Nursing (Education)
+1716,233,Assistant Director of Nursing (Management)
+1717,233,Chief Nurse
+1718,233,Deputy Director of Nursing (Clinical)
+1719,233,Deputy Director of Nursing (Education)
+1720,233,Deputy Director of Nursing (Management)
+1721,233,Director of Nursing (Clinical)
+1722,233,Director of Nursing (Education)
+1723,233,Director of Nursing (Management)
+1724,233,Healthcare Assistant / Basic Care Assistant / Nursing Aide
+1725,233,Nurse Educator
+1726,233,Nurse Manager
+1727,233,Senior Healthcare Assistant / Basic Care Assistant / Nursing Aide
+1728,233,Senior Nurse Educator
+1729,233,Senior Nurse Manager
+1730,233,Staff Nurse
+1731,91,Principal Speech Therapy Educator
+1732,91,Senior Principal Speech Therapy Educator
+1733,130,Warehouse Operations Manager / Inventory Management Manager / Capacity Management Manager
+1734,130,Warehouse Supervisor / Inventory Control Supervisor / Quality Control Supervisor
+1735,189,Service Operations Manager / Duty Operations Manager
+1736,46,HSSEQ Executive
+1737,64,Manager / Assistant Manager
+1738,238,Centre Manager
+1739,238,Director
+1740,239,Assistant Director / Senior Manager
+1741,239,Deputy Director / Senior Assistant Director
+1742,239,Director
+1743,239,Manager / Assistant Manager
+1744,65,Assistant Manager
+1745,65,Director
+1746,65,Senior Assistant Director / Assistant Director
+1747,65,Senior Manager / Manager
+1748,66,Assistant Manager
+1749,66,Director
+1750,66,Senior Assistant Director / Assistant Director
+1751,66,Senior Manager / Manager
+1752,240,Lead Workplace Safety and Health Auditor
+1753,240,Workplace Safety and Health Auditor
+1754,37,Head of Sales and Distribution / Head of Coverage
+1755,37,Head of Sales and Distribution / Head of Coverage (Asset Management)
+1756,37,Head of Sales and Distribution / Head of Coverage (Investment Banking)
+1757,37,Sales and Distribution Specialist / Coverage Officer
+1758,37,Sales and Distribution Specialist / Coverage Officer (Asset Management)
+1759,37,Sales and Distribution Specialist / Coverage Officer (Investment Banking)
+1760,99,Helmsman
+1761,99,Steersman
+1762,99,Tug Master
+1763,176,Quality Control Technician / Quality Control Assistant / Laboratory Technician
+1764,234,Beginning Early Years Educator
+1765,234,Beginning Infant Educator
+1766,234,Beginning Preschool Educator
+1767,234,Early Years Educators
+1768,234,Infant Educator
+1769,234,Preschool Educator
+1770,235,Beginning Early Intervention Educator
+1771,235,Early Intervention Educator
+1772,235,Lead Early Intervention Educator
+1773,235,Senior Early Intervention Educator
+1774,235,Senior Lead Early Intervention Educator
+1775,236,Lead Learning Support Educator
+1776,236,Learning Support Educator
+1777,236,Senior Lead Learning Support Educator
+1778,236,Senior Learning Support Educator
+1779,12,HVDC Building Specialist
+1780,189,Crew Manager
+1781,189,Customer Service Officer / Rover
+1782,189,Depot Train Controller
+1783,189,Senior Assistant Station Manager / Assistant Station Manager
+1784,189,Senior Station Manager / Station Manager / Deputy Station Manager
+1785,189,Senior Train Captain / Train Captain
+1786,189,Train Service Controller / Depot Traffic Controller
+1787,1,Senior Technician (Permanent Way and Civil Structure)
+1788,1,Technician (Permanent Way and Civil Structure)
+1789,136,Cleaning Supervisor
+1790,136,General Cleaner
+1791,136,Multi-Skilled Cleaner / Team Leader
+1792,140,Waste Treatment Worker / Waste Disposal Worker
+1793,241,Genetic Counselling Associate
+1794,129,Lifting Supervisor
+1795,129,Rigger / Signalman
+1796,54,Food Manufacturing Nutritionist
+1797,231,Programme Coordinator / Programme Executive
+1798,231,Programme Manager
+1799,231,Volunteer Executive
+1800,231,Volunteer Manager
+1801,238,Beginning Early Intervention Teacher
+1802,238,Early Intervention Teacher
+1803,238,Lead Early Intervention Teacher
+1804,238,Senior Early Intervention Teacher
+1805,238,Senior Lead Early Intervention Teacher
+1806,239,Associate Psychologist
+1807,239,Chief Psychologist
+1808,239,Chief Research Psychologist
+1809,239,Principal Psychologist
+1810,239,Principal Psychologist Educator
+1811,239,Principal Research Psychologist
+1812,239,Psychologist
+1813,239,Research Psychologist
+1814,239,Senior Principal Psychologist
+1815,239,Senior Principal Psychologist Educator
+1816,239,Senior Principal Research Psychologist
+1817,239,Senior Psychologist
+1818,239,Senior Research Psychologist
+1819,65,Assistant Director / Senior Manager
+1820,65,Assistant Research Director
+1821,65,Deputy Director / Senior Assistant Director
+1822,65,Manager / Assistant Manager
+1823,65,Policy Officer
+1824,65,Research Associate
+1825,65,Research Director
+1826,65,Senior Director / Director
+1827,65,Senior Principal Researcher / Principal Researcher
+1828,65,Senior Research Associate
+1829,242,Post-Production Assistant
+1830,242,Post-Production Supervisor
+1831,242,"Video Editor (Colour Grading, Online Editing)"
+1832,4,"Technical Support Operator (Video Tape Operations and / or Video Technical Operations, Camera Control Unit Operations, Studio Graphics Operations)"
+1833,8,Assistant Engineer / Senior Technician (Commissioning)
+1834,8,Technician / Coordinator (Commissioning)
+1835,1,Senior Technician (Signal and Communications)
+1836,1,Technician (Signal and Communications)
+1837,107,Head of Know Your Customer / Customer Due Diligence / Head of Client Lifecycle
+1838,107,Head of Know Your Customer / Customer Due Diligence / Head of Client Lifecycle (Corporate Banking)
+1839,107,Head of Know Your Customer / Customer Due Diligence / Head of Client Lifecycle (Investment Banking)
+1840,107,Head of Know Your Customer / Customer Due Diligence / Head of Client Lifecycle (Private Banking and Wealth Management)
+1841,107,Know Your Customer / Customer Due Diligence Manager
+1842,107,Know Your Customer / Customer Due Diligence Manager (Corporate Banking)
+1843,107,Know Your Customer / Customer Due Diligence Manager (Investment Banking)
+1844,107,Know Your Customer / Customer Due Diligence Manager (Private Banking and Wealth Management)
+1845,108,Compliance Analyst
+1846,108,Financial Crime Compliance Executive
+1847,108,Financial Crime Compliance Manager
+1848,108,Head of Financial Crime Compliance
+1849,108,"Monitoring, Surveillance and Testing Executive"
+1850,108,"Monitoring, Surveillance and Testing Manager"
+1851,227,Head Scriptwriter
+1852,227,Junior Scriptwriter / Junior Writer
+1853,227,Production Assistant
+1854,227,Scriptwriter / Writer
+1855,39,Analyst - Analytics and Customer Insights
+1856,39,Executive - Content Commissioning
+1857,39,Executive - Programme Planning and Scheduling
+1858,39,Manager - Programme Planning and Scheduling
+1859,4,Studio Director / Outside Broadcast Director
+1860,223,Assistant Lighting Designer
+1861,223,Assistant Multimedia Designer
+1862,223,Associate / Assistant Sound Designer
+1863,223,Lighting Designer
+1864,223,Multimedia Designer
+1865,223,Prop Designer
+1866,223,Sound Designer
+1867,104,Assistant Concierge
+1868,104,Concierge
+1869,1,Senior Technician (Engineering Train)
+1870,1,Senior Technician (Mechanical and Electrical)
+1871,1,Senior Technician (Rolling Stock)
+1872,1,Technician (Engineering Train)
+1873,1,Technician (Mechanical and Electrical)
+1874,1,Technician (Rolling Stock)
+1875,141,Waste and Recyclables Collection Supervisor
+1876,199,Procurement Assistant / Sourcing Assistant / Sourcing Coordinator
+1877,243,Principal Security Consultant
+1878,243,Security Consultant
+1879,95,Manager - Linear Media Operations
+1880,95,Operator - Linear Media Operations
+1881,95,Senior Operator - Linear Media Operations
+1882,39,Executive - Standards and Practices
+1883,39,Manager - Standards and Practices
+1884,109,Junior Maintenance Technician
+1885,165,Junior Process Technician
+1886,165,Process Technician
+1887,165,Senior Process Technician
+1888,98,Research Technologist
+1889,143,Business-to-Customer Sales Executive
+1890,8,Assistant Engineer / Senior Technician (Engineering Construction)
+1891,8,Technician / Coordinator (Engineering Construction)
+1892,171,Assistant Engineer / Officer (Engineering Procurement)
+1893,149,Customer Experience Executive / User Experience Executive
+1894,149,Customer Experience Manager / User Experience Manager
+1895,149,Head of Customer Experience / Head of User Experience
+1896,149,Head of Data Analytics
+1897,107,Know Your Customer / Customer Due Diligence Analyst
+1898,107,Know Your Customer / Customer Due Diligence Analyst (Corporate Banking)
+1899,107,Know Your Customer / Customer Due Diligence Analyst (Investment Banking)
+1900,107,Know Your Customer / Customer Due Diligence Analyst (Private Banking and Wealth Management)
+1901,37,Claims Liaison Executive
+1902,37,Claims Liaison Manager
+1903,37,Head of Claims Liaison
+1904,120,Superintendent
+1905,128,IT Business Solutions Project Specialist / Digital Services Project Specialist
+1906,142,Logistics Contracts Analyst / Logistics Operations Analyst
+1907,142,Vertical Product Manager
+1908,142,Vertical Specialist
+1909,130,Warehouse Officer / Inventory Controller / Quality Control Officer / Warehouse Facilities Management Officer
+1910,244,Assistant Producer - Games
+1911,244,Producer - Games
+1912,4,Floor Manager
+1913,4,Studio Technical Director
+1914,36,Head of Trust Administration
+1915,36,Trust Administrator
+1916,36,Trust Manager
+1917,87,Barista
+1918,163,Host / Hostess / Crew Leader
+1919,223,Assistant Stage Manager
+1920,223,Stage Manager
+1921,227,"Director (Single Camera Production, Multiple Camera Production)"
+1922,4,Vision Mixer / Switcher
+1923,104,Front Office Executive / Guest Services Executive / Guest Relations Executive / Front Office Supervisor / Guest Services Supervisor / Guest Relations Supervisor
+1924,104,Front Office Officer / Guest Services Officer / Guest Relations Officer / Front Office Agent / Guest Services Agent / Guest Relations Agent
+1925,105,Housekeeping Attendant / Room Attendant / Public Area Attendant
+1926,245,Game Director
+1927,39,Executive - Localisation
+1928,39,Manager - Localisation
+1929,179,Reservations Officer / Reservations Agent
+1930,163,Server / Service Crew / Runner
+1931,216,Pest Control Supervisor
+1932,216,Pest Control Technician
+1933,216,Pest Control Worker
+1934,141,Mechanical Operator / Waste and Recyclables Collection Truck Driver
+1935,128,Logistics Data Specialist / Master Data Analyst / Master Data Executive
+1936,128,Logistics IT Executive / Digital Services Executive / Logistics System Analyst
+1937,213,Customer Service Officer / Service Quality Analyst
+1938,213,Senior Customer Service Officer / Customer Service Specialist
+1939,115,Incident Investigator
+1940,115,Forensics Investigator
+1941,99,Engine Driver
+1942,99,Harbour Pilot
+1943,99,Senior Technician / Technician
+1944,46,3rd / 4th / 5th Engineer
+1945,46,Chief Engineer / 2nd Engineer
+1946,129,Traffic Coordinator / Dispatch Coordinator
+1947,149,Data Analyst
+1948,149,Data Engineer
+1949,149,Data Scientist
+1950,36,Pricing Actuarial Executive
+1951,36,Reserving Actuarial Executive
+1952,138,"Environment, Health and Safety Manager"
+1953,138,"Environment, Health and Safety Specialist"
+1954,141,Weighbridge Supervisor
+1955,209,"Associate, Talent Attraction and Employee Experience and Relations"
+1956,211,"Associate, Talent Management and Learning and Organisational Development"
+1957,2,Senior Server Programmer
+1958,246,Senior Special Care Oral Health Therapist
+1959,246,Special Care Oral Health Therapist
+1960,227,Assistant Director
+1961,238,Teacher Aide
+1962,139,Waste Recycling Supervisor / Waste Recovery Supervisor
+1963,140,Waste Treatment Supervisor / Waste Disposal Supervisor
+1964,99,Chief Engineer (Special Limit)
+1965,99,Master Engineer (Special Limit)
+1966,139,Waste Recycling Machine Operator
+1967,139,Waste Recycling Sorter
+1968,141,Waste and Recyclables Collection Attendant
+1969,141,Weighbridge Operator
+1970,226,Workplace Safety and Health Coordinator
+1971,95,Digital Asset Librarian
+1972,95,Digital Asset Manager
+1973,102,Workplace Safety and Health Coordinator
+1974,102,Workplace Safety and Health Supervisor
+1975,227,Chief Editor
+1976,227,Executive Editor / Executive Producer - News and Current Affairs
+1977,227,Senior Producer / Producer - Current Affairs
+1978,245,Junior Designer
+1979,245,Lead Game Designer
+1980,245,Senior Game Designer
+1981,245,Senior Level Designer
+1982,247,Lead Quality Assurance Tester
+1983,247,Quality Assurance Tester
+1984,223,Production Assistant
+1985,189,Communication Controller
+1986,4,Gaffer
+1987,4,Grip / Lighting Technician
+1988,4,Junior Grip / Junior Lighting Technician
+1989,227,Assistant Producer - News / Current Affairs
+1990,227,Reporter / Correspondent - News
+1991,227,Senior Anchor / Senior Presenter / Anchor / Presenter - News
+1992,227,Senior Producer / Producer - News
+1993,227,Senior Reporter / Senior Correspondent - News (Visual Journalism)
+1994,4,Art Director
+1995,4,Key Grip
+1996,4,"Set Designer (Set Decoration, Props Management)"
+1997,4,Sound Recordist
+1998,242,Supervising Sound Editor (Sound Mixing)
+1999,4,Art Department Assistant / Set Dresser
+2000,4,Boom Operator
+2001,242,Sound Editor / Sound Engineer

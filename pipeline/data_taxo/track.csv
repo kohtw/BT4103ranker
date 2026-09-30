@@ -1,0 +1,248 @@
+track_id,sector_id,name
+1,1,Rail Engineering
+2,2,Game Technical Development
+3,2,Visual Graphics
+4,2,Production Technical Services
+5,3,Architectural Consultancy and Design
+6,3,Digital Delivery Management
+7,3,Engineering Consultancy and Design
+8,4,Engineering Construction and Commissioning
+9,4,Engineering Design
+10,5,Maritime Services
+11,6,Distributed Generation
+12,6,Electricity Imports
+13,6,Electricity Transmission and Distribution
+14,6,Gas Systems Operations
+15,6,Gas Transmission and Distribution
+16,6,Generated Distribution
+17,7,Auxiliary Police
+18,7,Private Security
+19,8,Airport Emergency Services
+20,8,Airport Operations
+21,8,Airside Operations
+22,8,Baggage Services
+23,8,Cabin Operations
+24,8,Cargo Operations
+25,8,Catering Services
+26,8,Flight Operations (AGH)
+27,8,Ground Services
+28,8,Load Control Services
+29,8,Passenger Services
+30,8,Ramp and Technical Ramp Services
+31,8,Technical Services
+32,9,Attractions Management and Operations
+33,9,Event Management and Operations
+34,9,Travel Management and Operations
+35,9,Venue Management and Operations
+36,10,Product Solutioning and Management
+37,10,"Sales, After Sales, Distribution and Relationship Management"
+38,11,Sales and Marketing
+39,2,Media Business Management
+40,12,Financial Accounting
+41,12,Financial Accounting / Management Accounting
+42,12,Management Accounting
+43,12,Tax
+44,12,Assurance
+45,12,Financial Forensics
+46,5,Shipping
+47,13,Adult Education
+48,13,Learning Management
+49,14,Agriculture
+50,14,Agriculture / Aquaculture
+51,14,Aquaculture
+52,14,General Management
+53,15,Production
+54,15,Research and Development
+55,16,Retail Operations
+56,6,Battery Energy Storage Systems
+57,17,Advisory and Advocacy
+58,18,Manufacturing
+59,3,Construction Management (Production)
+60,19,Design and Engineering / Production Engineering
+61,19,Production Engineering
+62,20,Management
+63,20,Technical and Engineering
+64,21,Counselling
+65,21,Social Work
+66,21,Youth Work
+67,18,Aircraft Engine / Component Maintenance
+68,18,Aircraft Maintenance
+69,18,Fleet Management
+70,22,Business
+71,22,Design
+72,22,Innovation
+73,22,Technology
+74,23,Landscape Design
+75,16,Marketing
+76,11,Infrastructure
+77,11,Product Development
+78,11,Software and Applications
+79,11,Strategy and Governance
+80,3,Facilities Management
+81,8,Pilot Operations
+82,8,Flight Operations (AGO)
+83,8,Airport Engineering
+84,8,Customer Services
+85,8,Network Planning
+86,24,Prehospital Emergency Care
+87,25,Beverage Service
+88,24,Pharmacy Support
+89,24,Occupational Therapy
+90,24,Physiotherapy
+91,24,Speech Therapy
+92,26,Quality Assurance and Quality Control (QA&QC)
+93,27,Quality Assurance and Quality Control (QA&QC)
+94,27,"Quality Assurance and Quality Control (QA&QC) / Technical Service, Application and Product Development / Research and Development (R&D)"
+95,2,Media Technology and Operations
+96,6,Smart Grid
+97,11,Operations and Support
+98,27,Research and Development (R&D)
+99,5,Port
+100,4,Engineering Construction and Commissioning / Engineering Design / Engineering Procurement / Project Development
+101,4,Operations and Maintenance
+102,28,Operational Control
+103,25,Culinary Arts
+104,29,Front Office
+105,29,Housekeeping
+106,29,Sales and Marketing
+107,10,Operations
+108,10,"Risk, Compliance and Legal"
+109,27,Engineering and Maintenance
+110,27,Production and Process Engineering / Engineering and Maintenance
+111,3,Construction Management
+112,3,Project Management
+113,6,Power Generation
+114,6,Town Gas Production and Maintenance
+115,11,Cyber Security
+116,12,Sustainability Reporting and Assurance
+117,30,Governance and Infrastructure
+118,27,"Health, Safety and Environment (HSE)"
+119,30,Advisory
+120,31,Management
+121,31,Technical and Engineering
+122,24,Operations
+123,24,Therapy Support
+124,12,Internal Audit
+125,26,Engineering and Maintenance
+126,26,Production
+127,26,Process Development / Manufacturing Science and Technology (MS&T)
+128,32,Logistics Process Improvement and Information System
+129,32,Transportation Management and Operations
+130,32,Warehouse Management and Operations
+131,23,Arboriculture
+132,23,Horticulture and Turf Maintenance
+133,23,Landscape Design / Landscape Implementation / Horticulture and Turf Maintenance / Arboriculture / Nursery
+134,23,Landscape Implementation
+135,23,Nursery
+136,33,Cleaning Operations
+137,33,"Cleaning Operations / Waste Collection / Materials Recovery / Treatment and Disposal / Environment, Health and Safety"
+138,33,"Environment, Health and Safety"
+139,33,Materials Recovery
+140,33,Treatment and Disposal
+141,33,Waste Collection
+142,32,Logistics Solutioning and Programme Management
+143,6,Energy Retail
+144,6,Terminal Operations and Fuel System Operations
+145,19,Design and Engineering
+146,12,Business Valuation
+147,12,Enterprise Risk Management
+148,12,Mergers and Acquisitions
+149,10,Digital and Data Analytics
+150,34,HR Business Partner
+151,34,Performance and Rewards
+152,19,Project Management
+153,10,Trading and Execution
+154,25,Pastry and Baking
+155,16,Brand Management
+156,16,E-Commerce (Omni-Channel)
+157,16,Merchandising
+158,9,"Business Development, Sales, Sponsorships and Marketing"
+159,16,Retail Operations / Brand Management / Marketing / Merchandising / E-Commerce (Omni-Channel)
+160,35,"Branding, Marketing and Communications"
+161,35,Management
+162,15,Business Development
+163,25,Food and Beverage Service
+164,36,"Marketing, Business Development and Analysis"
+165,27,Production and Process Engineering
+166,27,"Production and Process Engineering / Health, Safety and Environment (HSE) / Engineering and Maintenance / Quality Assurance and Quality Control (QA&QC) / Technical Service, Application and Product Development / Research and Development (R&D)"
+167,27,"Technical Services, Application and Product Development"
+168,26,General Management
+169,3,General Management
+170,4,Engineering Construction and Commissioning / Engineering Design / Engineering Procurement / Project Development / Project Financing / Operations and Maintenance
+171,4,Engineering Procurement
+172,4,Project Development
+173,4,Project Financing
+174,10,Sustainability
+175,15,Business Development / Production / Quality Assurance and Quality Control / Research and Development
+176,15,Quality Assurance and Control
+177,29,Front Office / Housekeeping
+178,29,Front Office / Housekeeping / Revenue and Distribution / Sales and Marketing
+179,29,Revenue and Distribution
+180,11,Data and Artificial Intelligence
+181,11,Infrastructure / Software and Applications / Operations and Support
+182,11,Strategy and Governance / Infrastructure / Software and Applications
+183,37,IP Legal
+184,37,IP Legal / Patents Prosecution / IP Strategy
+185,37,IP Strategy
+186,37,Patents Prosecution
+187,1,Bus Fleet Engineering
+188,1,Bus Operations
+189,1,Rail Operations
+190,5,Shipping and Maritime Services
+191,35,Capability Building
+192,35,Industry Development
+193,35,Internationalisation
+194,35,Membership
+195,35,Research
+196,35,Strategy & Governance
+197,13,Adult Education / Learning Management
+198,36,Finance and Regulations
+199,36,"Operations, Procurement and Sourcing"
+200,36,Trading and Sales
+201,3,Quantity Surveying
+202,32,Freight Forwarding and Operations
+203,12,Restructuring and Insolvency
+204,34,Employee Experience and Relations
+205,34,Learning and Organisation Development
+206,34,Operations and Technology
+207,34,Operations and Technology / Performance and Rewards / HR Business Partner / Talent Attraction / Employee Experience and Relations / Talent Management / Learning and Organisation Development
+208,34,Talent Attraction
+209,34,Talent Attraction / Employee Experience and Relations
+210,34,Talent Management
+211,34,Talent Management / Learning and Organisation Development
+212,32,Freight Forwarding and Operations / Logistics Process Improvement and Information System / Logistics Solutioning and Programme Management / Sales and Customer Service / Transportation Management and Operations / Warehouse Management and Operations
+213,32,Sales and Customer Service
+214,9,General Management
+215,8,Baggage Services / Flight Operations / Load Control Services / Technical Services / Cargo Operations / Ramp and Technical Ramp Services / Catering Services
+216,33,Pest Management
+217,30,Financial Intermediation
+218,10,Family Office
+219,30,Carbon Project Development
+220,6,Energy Trading and Portfolio Management
+221,6,Liquefied Natural Gas Trading and Research
+222,6,Town Gas Technical Services
+223,38,Technical Theatre & Production
+224,30,Legal and Insurance
+225,19,General Management
+226,19,Workplace Safety and Health
+227,2,Content Production and Management
+228,28,Corporate
+229,6,Distributed Generation / Electricity Transmission and Distribution / Energy Retail / Energy Trading and Portfolio Management / Gas Systems Operations / Gas Transmission and Distribution / Liquefied Natural Gas Trading and Research / Power Generation / Terminal Operations and Fuel System Operations / Town Gas Production and Maintenance / Town Gas Technical Services
+230,24,Community Care
+231,21,Care and Programme
+232,21,Social Work / Youth Work / Care and Programme
+233,24,Nursing
+234,39,Early Childhood Education
+235,39,Early Intervention
+236,39,Learning Support
+237,23,Arboriculture / Horticulture and Turf Maintenance / Nursery
+238,21,Early Intervention Teaching
+239,21,Psychology
+240,28,System Audit
+241,24,Genetic Counselling
+242,2,Content Post Production
+243,7,Security Consultancy
+244,2,Game Production
+245,2,Game Design
+246,24,Oral Health Therapy
+247,2,Quality Assurance

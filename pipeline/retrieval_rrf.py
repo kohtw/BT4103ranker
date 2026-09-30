@@ -33,3 +33,19 @@ def rrf_fuse(
         fused.append((pid, score))
 
     return sorted(fused, key=lambda x: x[1], reverse=True)
+
+
+def rrf_fuse_many(
+    ranked_lists: list[list[tuple[int, float]]],
+    k: int = 60,
+    weights: list[float] | None = None,
+) -> list[tuple[int, float]]:
+    """rrf_fuse for any number of rankings (e.g. BM25 + dense + taxonomy). A ranking
+    may be partial -- the taxonomy tower only returns providers sharing a skill --
+    and a provider missing from it just gets no contribution from that list."""
+    weights = weights or [1.0] * len(ranked_lists)
+    fused: dict[int, float] = {}
+    for ranked, w in zip(ranked_lists, weights):
+        for pid, rank in _ranks_from_scored_list(ranked).items():
+            fused[pid] = fused.get(pid, 0.0) + w / (k + rank)
+    return sorted(fused.items(), key=lambda x: x[1], reverse=True)
