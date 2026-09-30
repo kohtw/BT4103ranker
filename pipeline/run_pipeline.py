@@ -11,6 +11,7 @@ stay fast.
 
 Run: python3 pipeline/run_pipeline.py
 """
+import argparse
 import json
 import time
 from pathlib import Path
@@ -23,10 +24,26 @@ from retrieval_dense import (
 )
 from retrieval_rrf import rrf_fuse
 
-DATA_DIR = Path(__file__).parent / "data"
-RESULTS_DIR = Path(__file__).parent / "results"
-RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-FINETUNED_MODEL_PATH = str(Path(__file__).parent / "models" / "mxbai-finetuned")
+BASE = Path(__file__).parent
+DATA_DIR = BASE / "data"
+RESULTS_DIR = BASE / "results"
+MODELS_DIR = BASE / "models"
+
+
+def set_dataset(tag: str):
+    """Namespace data/results/models by dataset so a data_sat run never
+    overwrites the frozen synthetic-data baseline in results/."""
+    global DATA_DIR, RESULTS_DIR, MODELS_DIR, FINETUNED_MODEL_PATH
+    DATA_DIR = BASE / tag
+    if tag == "data":
+        RESULTS_DIR, MODELS_DIR = BASE / "results", BASE / "models"
+    else:
+        RESULTS_DIR, MODELS_DIR = BASE / f"results_{tag}", BASE / f"models_{tag}"
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    FINETUNED_MODEL_PATH = str(MODELS_DIR / "mxbai-finetuned")
+
+
+FINETUNED_MODEL_PATH = str(BASE / "models" / "mxbai-finetuned")
 
 TRUNCATE_DIMS = [None, 512, 256, 128, 64]
 RRF_KS = [10, 60, 100]
@@ -65,6 +82,12 @@ def run_dense_model(label, providers, hirers, provider_ids, model_name, dims, qu
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--data-dir", default="data",
+                    help="dataset folder under pipeline/ (e.g. data_sat); outputs are namespaced accordingly")
+    args = ap.parse_args()
+    set_dataset(args.data_dir)
+
     providers = load_json("providers.json")
     hirers = load_json("hirers.json")
     provider_ids = [p["provider_id"] for p in providers]

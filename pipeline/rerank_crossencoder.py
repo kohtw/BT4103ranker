@@ -52,6 +52,19 @@ MODELS_DIR = BASE / "models"
 DEFAULT_MODEL = "cross-encoder/ms-marco-MiniLM-L6-v2"
 
 
+def set_dataset(tag: str):
+    """Namespace every path by dataset so data_sat runs never touch the
+    frozen synthetic-data baseline (features/, results/, models/)."""
+    global DATA_DIR, FEAT_DIR, RESULTS_DIR, MODELS_DIR
+    DATA_DIR = BASE / tag
+    if tag == "data":
+        FEAT_DIR, RESULTS_DIR, MODELS_DIR = BASE / "features", BASE / "results", BASE / "models"
+    else:
+        FEAT_DIR = BASE / f"features_{tag}"
+        RESULTS_DIR = BASE / f"results_{tag}"
+        MODELS_DIR = BASE / f"models_{tag}"
+
+
 def load_json(p):
     return json.loads(Path(p).read_text())
 
@@ -314,7 +327,10 @@ def main():
     ap.add_argument("--positive-grade", type=int, default=3, help="grade >= this counts as a positive")
     ap.add_argument("--quiet", action="store_true", help="suppress the training progress bars")
     ap.add_argument("--seed", type=int, default=7)
+    ap.add_argument("--data-dir", default="data",
+                    help="dataset folder under pipeline/ (e.g. data_sat); outputs are namespaced accordingly")
     args = ap.parse_args()
+    set_dataset(args.data_dir)
     MODELS_DIR.mkdir(exist_ok=True)
     ({"score": score, "finetune": finetune}[args.mode])(args)
 

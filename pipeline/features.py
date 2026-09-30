@@ -7,7 +7,7 @@ top-K, the feature row a learned ranker needs -- text-retrieval signals
 embeddings structurally cannot see (budget fit, seniority fit, availability
 immediacy). Writes plain CSVs so the ranker modules never need to re-embed.
 
-Outputs
+Outputs (namespaced by --data-dir; shown here for the default "data")
 -------
 features/candidates_top{K}.csv : every top-K candidate for every hirer
 features/train_pairs.csv       : the judged subset (label source for training)
@@ -23,20 +23,25 @@ that a GBDT will happily memorise. Pass `--label-policy all` to opt into that
 
 Train/serve skew warning
 ------------------------
-budget_fit / seniority_fit come from `_hirers_with_taxonomy.json` /
-`_providers_with_taxonomy.json`, which carry internal synthetic fields
-(budget_lo, budget_hi, seniority_needed, seniority). Before shipping any
-ranker trained on them, confirm the production gig payload actually carries
-those fields -- otherwise the model learns on features that are absent (or
-constant) at serve time.
+budget_fit / seniority_fit / avail_immediacy need budget_lo, budget_hi,
+seniority_needed, seniority, rate_per_hour, availability (and, for data_sat,
+available_from / start_by). The synthetic corpus (--data-dir data) carries
+these in a separate `_hirers_with_taxonomy.json` / `_providers_with_taxonomy.json`;
+data_sat carries them inline on providers.json/hirers.json, and this script
+falls back to those directly when no `_with_taxonomy.json` file exists.
+Before shipping any ranker trained on them, confirm the production gig
+payload actually carries these fields -- otherwise the model learns on
+features that are absent (or constant) at serve time.
 
 Run (from the repo root, in the fi-bench env):
     conda activate fi-bench
     python pipeline/features.py --top-k 50
+    python pipeline/features.py --top-k 50 --data-dir data_sat
 """
 import argparse
 import csv
 import json
+from datetime import date
 from pathlib import Path
 
 import numpy as np
@@ -51,9 +56,22 @@ DATA_DIR = BASE / "data"
 FEAT_DIR = BASE / "features"
 CACHE_DIR = BASE / "cache"
 
+
+def set_dataset(tag: str):
+    """Point every module-level path at `tag`'s data + a namespaced output
+    tree, so a non-default dataset (e.g. data_sat) never overwrites the
+    frozen synthetic-data baseline (features/, cache/) that RERANK_README.md
+    documents."""
+    global DATA_DIR, FEAT_DIR, CACHE_DIR
+    DATA_DIR = BASE / tag
+    if tag == "data":
+        FEAT_DIR, CACHE_DIR = BASE / "features", BASE / "cache"
+    else:
+        FEAT_DIR, CACHE_DIR = BASE / f"features_{tag}", BASE / f"cache_{tag}"
+
 SENIORITY_ORDER = {"mid": 0, "senior": 1, "expert": 2}
 
-# Availability is free text in the schema; we only extract a coarse
+# Synthetic-data availability is free text; we only extract a coarse
 # "how soon can they start" signal. Weak feature by design -- 6 distinct
 # values over 104 providers -- the ranker is free to ignore it.
 AVAIL_SOON = [
@@ -64,6 +82,8 @@ AVAIL_SOON = [
     ("3 days/week", 0.5),
     ("2 weeks' notice", 0.2),
 ]
+
+AVAIL_DECAY_DAYS = 60.0  # data_sat: linear decay to 0 once availability trails start_by by this much
 
 
 def load_json(name: str):
@@ -89,8 +109,33 @@ def seniority_fit(needed: str, has: str) -> float:
     return 1.0 - abs(a - b) / 2.0
 
 
-def avail_immediacy(text: str) -> float:
-    t = (text or "").lower()
+def _parse_avail_date(value: str | None, today: date) -> date | None:
+    """data_sat uses the literal sentinels "now" (provider.available_from)
+    and "asap" (hirer.start_by) instead of a date in ~45% / ~7% of records
+    respectively -- both anchor to today's date. Anything else is ISO
+    'YYYY-MM-DD' or unparseable (-> None, caller falls back to text)."""
+    if value in ("now", "asap"):
+        return today
+    try:
+        return date.fromisoformat(value) if value else None
+    except ValueError:
+        return None
+
+
+def avail_immediacy(provider: dict, hirer: dict) -> float:
+    """data_sat carries clean dates (`available_from` on the provider,
+    `start_by` on the hirer) -- prefer those over the synthetic corpus's
+    free-text `availability` field, whose fixed phrasings ("immediately",
+    "3 days/week") never appear in data_sat's "Available from <date>, N
+    days a week" strings and would otherwise silently collapse to the 0.5
+    default for every real record."""
+    today = date.today()
+    d_avail = _parse_avail_date(provider.get("available_from"), today)
+    d_start = _parse_avail_date(hirer.get("start_by"), today)
+    if d_avail is not None and d_start is not None:
+        gap_days = (d_avail - d_start).days
+        return 1.0 if gap_days <= 0 else max(0.0, 1.0 - gap_days / AVAIL_DECAY_DAYS)
+    t = (provider.get("availability") or "").lower()
     for needle, score in AVAIL_SOON:
         if needle in t:
             return score
@@ -126,13 +171,21 @@ def main():
                     help="Matryoshka truncation for the dense leg (1024 = full, matches the frozen baseline)")
     ap.add_argument("--dense-model", default=BASE_MODEL_NAME)
     ap.add_argument("--label-policy", choices=["judged", "all"], default="judged")
+    ap.add_argument("--data-dir", default="data",
+                    help="dataset folder under pipeline/ (e.g. data_sat); outputs are namespaced accordingly")
     args = ap.parse_args()
+    set_dataset(args.data_dir)
 
     FEAT_DIR.mkdir(exist_ok=True)
     providers = load_json("providers.json")
     hirers = load_json("hirers.json")
-    prov_tax = {p["provider_id"]: p for p in load_json("_providers_with_taxonomy.json")}
-    hir_tax = {h["hire_id"]: h for h in load_json("_hirers_with_taxonomy.json")}
+    # Synthetic data keeps budget/seniority fields in a separate _with_taxonomy
+    # file; data_sat already carries them inline on providers.json/hirers.json.
+    prov_tax_path, hir_tax_path = DATA_DIR / "_providers_with_taxonomy.json", DATA_DIR / "_hirers_with_taxonomy.json"
+    prov_tax = {p["provider_id"]: p for p in load_json("_providers_with_taxonomy.json")} \
+        if prov_tax_path.exists() else {p["provider_id"]: p for p in providers}
+    hir_tax = {h["hire_id"]: h for h in load_json("_hirers_with_taxonomy.json")} \
+        if hir_tax_path.exists() else {h["hire_id"]: h for h in hirers}
     gt = load_json("ground_truth_llm.json")
     # Labels come from the RAW merged judgments (grades 0-3), not ground_truth_llm.json:
     # that file drops grade-0 pairs, so a ranker trained on it would have positives
@@ -203,7 +256,7 @@ def main():
                                                p_tax.get("rate_per_hour", 0)), 4),
                 "seniority_fit": round(seniority_fit(h_tax.get("seniority_needed", ""),
                                                      p_tax.get("seniority", "")), 4),
-                "avail_immediacy": round(avail_immediacy(p_tax.get("availability", "")), 4),
+                "avail_immediacy": round(avail_immediacy(p_tax, h_tax), 4),
             })
 
     cand_path = FEAT_DIR / f"candidates_top{args.top_k}.csv"
