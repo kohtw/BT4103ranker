@@ -1,0 +1,91 @@
+10-11 04:27:04 start: 1106 gigs x 3024 providers
+10-11 04:27:56 phase 1: 8848 BM25 pairs
+10-11 04:27:56 [grade phase1] pass 1
+10-11 04:28:29 [embed] sat_docs_mxbai_by_text: 0 cached, 3024 to embed
+10-11 04:34:37 [embed] sat_docs_mxbai_by_text: 64/3024
+10-11 04:40:27 [embed] sat_docs_mxbai_by_text: 128/3024
+10-11 04:46:43 [embed] sat_docs_mxbai_by_text: 192/3024
+10-11 04:53:06 [embed] sat_docs_mxbai_by_text: 256/3024
+10-11 04:59:09 [embed] sat_docs_mxbai_by_text: 320/3024
+10-11 05:04:54 [embed] sat_docs_mxbai_by_text: 384/3024
+10-11 05:10:50 [embed] sat_docs_mxbai_by_text: 448/3024
+10-11 05:17:05 [embed] sat_docs_mxbai_by_text: 512/3024
+10-11 05:22:33 [embed] sat_docs_mxbai_by_text: 576/3024
+10-11 05:28:19 [embed] sat_docs_mxbai_by_text: 640/3024
+10-11 05:34:09 [embed] sat_docs_mxbai_by_text: 704/3024
+10-11 05:40:20 [embed] sat_docs_mxbai_by_text: 768/3024
+10-11 05:46:36 [embed] sat_docs_mxbai_by_text: 832/3024
+10-11 05:53:18 [embed] sat_docs_mxbai_by_text: 896/3024
+10-11 05:59:45 [embed] sat_docs_mxbai_by_text: 960/3024
+10-11 06:05:39 [embed] sat_docs_mxbai_by_text: 1024/3024
+10-11 06:10:50 [embed] sat_docs_mxbai_by_text: 1088/3024
+10-11 06:15:06 [embed] sat_docs_mxbai_by_text: 1152/3024
+10-11 06:20:50 [embed] sat_docs_mxbai_by_text: 1216/3024
+10-11 06:26:25 [embed] sat_docs_mxbai_by_text: 1280/3024
+10-11 06:32:19 [embed] sat_docs_mxbai_by_text: 1344/3024
+10-11 06:38:37 [embed] sat_docs_mxbai_by_text: 1408/3024
+10-11 06:45:07 [embed] sat_docs_mxbai_by_text: 1472/3024
+10-11 06:51:15 [embed] sat_docs_mxbai_by_text: 1536/3024
+10-11 06:57:16 [embed] sat_docs_mxbai_by_text: 1600/3024
+10-11 07:03:22 [embed] sat_docs_mxbai_by_text: 1664/3024
+10-11 07:05:06 [grade phase1] pass 1 exit 0, 6 pairs left
+10-11 07:05:36 [grade phase1] pass 2
+10-11 07:05:45 [grade phase1] pass 2 exit 0, 6 pairs left
+10-11 07:06:17 start: 1106 gigs x 3024 providers
+10-11 07:07:00 phase 1: 8848 BM25 pairs
+10-11 07:07:00 [grade phase1] pass 1
+10-11 07:07:06 [grade phase1] pass 1 exit 0, 6 pairs left
+10-11 07:07:09 [embed] sat_docs_mxbai_by_text: 1664 cached, 1360 to embed
+10-11 07:07:36 [grade phase1] pass 2
+10-11 07:07:45 [grade phase1] pass 2 exit 0, 6 pairs left
+10-11 07:07:45 [grade phase1] no progress; leaving 6 pairs ungraded
+10-11 07:13:43 [embed] sat_docs_mxbai_by_text: 64/1360
+10-11 07:19:49 [embed] sat_docs_mxbai_by_text: 128/1360
+10-11 07:26:02 [embed] sat_docs_mxbai_by_text: 192/1360
+10-11 07:32:15 [embed] sat_docs_mxbai_by_text: 256/1360
+10-11 07:37:58 [embed] sat_docs_mxbai_by_text: 320/1360
+10-11 07:43:40 [embed] sat_docs_mxbai_by_text: 384/1360
+10-11 07:50:04 [embed] sat_docs_mxbai_by_text: 448/1360
+10-11 07:56:40 [embed] sat_docs_mxbai_by_text: 512/1360
+10-11 08:03:11 [embed] sat_docs_mxbai_by_text: 576/1360
+10-11 08:09:35 [embed] sat_docs_mxbai_by_text: 640/1360
+10-11 08:16:14 [embed] sat_docs_mxbai_by_text: 704/1360
+10-11 08:22:57 [embed] sat_docs_mxbai_by_text: 768/1360
+10-11 08:29:41 [embed] sat_docs_mxbai_by_text: 832/1360
+10-11 08:36:19 [embed] sat_docs_mxbai_by_text: 896/1360
+10-11 08:42:55 [embed] sat_docs_mxbai_by_text: 960/1360
+10-11 08:49:26 [embed] sat_docs_mxbai_by_text: 1024/1360
+10-11 08:56:09 [embed] sat_docs_mxbai_by_text: 1088/1360
+10-11 09:02:43 [embed] sat_docs_mxbai_by_text: 1152/1360
+10-11 09:09:23 [embed] sat_docs_mxbai_by_text: 1216/1360
+10-11 09:14:40 [embed] sat_docs_mxbai_by_text: 1280/1360
+10-11 09:19:56 [embed] sat_docs_mxbai_by_text: 1344/1360
+10-11 09:21:04 [embed] sat_docs_mxbai_by_text: 1360/1360
+10-11 09:21:04 [embed] sat_queries_mxbai_by_text: 0 cached, 1106 to embed
+10-11 09:22:49 [embed] sat_queries_mxbai_by_text: 64/1106
+10-11 09:24:28 [embed] sat_queries_mxbai_by_text: 128/1106
+10-11 09:26:27 [embed] sat_queries_mxbai_by_text: 192/1106
+10-11 09:28:16 [embed] sat_queries_mxbai_by_text: 256/1106
+10-11 09:30:05 [embed] sat_queries_mxbai_by_text: 320/1106
+10-11 09:31:49 [embed] sat_queries_mxbai_by_text: 384/1106
+10-11 09:33:36 [embed] sat_queries_mxbai_by_text: 448/1106
+10-11 09:35:31 [embed] sat_queries_mxbai_by_text: 512/1106
+10-11 09:37:20 [embed] sat_queries_mxbai_by_text: 576/1106
+10-11 09:39:19 [embed] sat_queries_mxbai_by_text: 640/1106
+10-11 09:41:04 [embed] sat_queries_mxbai_by_text: 704/1106
+10-11 09:42:50 [embed] sat_queries_mxbai_by_text: 768/1106
+10-11 09:44:39 [embed] sat_queries_mxbai_by_text: 832/1106
+10-11 09:46:26 [embed] sat_queries_mxbai_by_text: 896/1106
+10-11 09:48:19 [embed] sat_queries_mxbai_by_text: 960/1106
+10-11 09:50:06 [embed] sat_queries_mxbai_by_text: 1024/1106
+10-11 09:52:05 [embed] sat_queries_mxbai_by_text: 1088/1106
+10-11 09:52:34 [embed] sat_queries_mxbai_by_text: 1106/1106
+10-11 09:54:53 pools built, exit 0
+10-11 09:54:53 full pools: 21706 pairs
+10-11 09:54:53 [grade full] pass 1
+10-11 13:32:31 [grade full] pass 1 exit 0, 10 pairs left
+10-11 13:33:01 [grade full] pass 2
+10-11 13:33:08 [grade full] pass 2 exit 0, 10 pairs left
+10-11 13:33:08 [grade full] no progress; leaving 10 pairs ungraded
+10-11 13:33:08 exported; 10 pool pairs ungraded
+10-11 13:33:08 ALL DONE

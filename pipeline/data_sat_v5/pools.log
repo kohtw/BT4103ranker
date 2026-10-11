@@ -1,0 +1,7 @@
+1106 gigs x 3024 providers
+embedding with mixedbread-ai/mxbai-embed-large-v1 (CPU is slow the first time; cached after)...
+  sat_docs_mxbai_by_text: 3024 cached, 0 to embed
+  sat_queries_mxbai_by_text: 1106 cached, 0 to embed
+pool size per gig: min 15, mean 19.6, max 28
+total pairs to judge: 21706
+written to C:\Users\tingw\ranker\pipeline\data_sat_v5

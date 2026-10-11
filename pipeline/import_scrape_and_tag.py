@@ -1,6 +1,6 @@
 """
 Imports the real gigs and provider profiles extracted by the BT4103-Scrape-and-Tag
-pipeline (docs/hirers.csv, docs/providers.csv) into this repo's JSON format, so
+pipeline (data/output/hirers.csv, data/output/providers.csv) into this repo's JSON format, so
 the Stage-1 retrievers can pool candidates for LLM judging and the Stage-2
 rankers can train on real data instead of the synthetic corpus.
 
@@ -24,7 +24,7 @@ Filters (the same quality bar Scrape-and-Tag's labeller/sample.py uses for gigs)
 "Engagement duration: ..." is stripped from every gig description: Scrape-and-Tag's
 extract prompt appends it to every gig, so it says nothing about fit.
 
-Structured fields (see Scrape-and-Tag's ranker_input_spec.md) are carried through when
+Structured fields (see Scrape-and-Tag's docs/ranker_input_spec.md) are carried through when
 the CSVs have them -- the *_enriched.csv files do, the plain ones don't. Numbers are
 parsed; an empty cell becomes null, never 0:
   gigs       budget_lo, budget_hi (S$/hr), seniority_needed, start_by, commitment
@@ -32,7 +32,7 @@ parsed; an empty cell becomes null, never 0:
   providers  rate_per_hour (S$/hr), seniority, available_from, capacity (days/week),
              availability
 
-Run: python pipeline/import_scrape_and_tag.py [--src ../BT4103-Scrape-and-Tag/docs]
+Run: python pipeline/import_scrape_and_tag.py [--src ../BT4103-Scrape-and-Tag/data/output]
      python pipeline/import_scrape_and_tag.py --enriched     # *_enriched.csv
 """
 import argparse
@@ -43,7 +43,7 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 OUT_DIR = BASE / "data_sat"
-DEFAULT_SRC = BASE.parent.parent / "BT4103-Scrape-and-Tag" / "docs"
+DEFAULT_SRC = BASE.parent.parent / "BT4103-Scrape-and-Tag" / "data" / "output"
 
 ENGAGEMENT_RE = re.compile(r"\s*Engagement duration:[^\n]*$", re.IGNORECASE)
 HIRER_FIELDS = ["hire_title", "hire_description", "hire_description_additional_notes"]
@@ -132,15 +132,16 @@ def good_providers(rows: list[dict]) -> list[dict]:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", type=Path, default=DEFAULT_SRC,
-                    help="Scrape-and-Tag docs/ folder (default: sibling checkout)")
+                    help="Scrape-and-Tag data/output/ folder (default: sibling checkout)")
     ap.add_argument("--enriched", action="store_true",
                     help="read hirers_enriched.csv / providers_enriched.csv (structured fields)")
     ap.add_argument("--out", type=Path, default=OUT_DIR, help="output folder (default: data_sat/)")
     args = ap.parse_args()
 
     suffix = "_enriched" if args.enriched else ""
+    # Scrape-and-Tag keeps its manifests beside output/, in data/manifests/
     hirers = good_hirers(load_csv(args.src / f"hirers{suffix}.csv"),
-                         written_hirers(args.src / "extract_manifest.jsonl"))
+                         written_hirers(args.src.parent / "manifests" / "extract.jsonl"))
     providers = good_providers(load_csv(args.src / f"providers{suffix}.csv"))
 
     # ids follow source_file order, so a re-import of the same CSVs gives the same ids
